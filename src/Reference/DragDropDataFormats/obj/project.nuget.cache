@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0vIXsNE+e9KabE0s1wWKmC4t8e6xLom76fubIsWAmCmXoxXKkFjh0nh+SiZ+5ZTETzrnCVvG9Lw6djEBwJIFw==",
+  "dgSpecHash": "cak78qLtSKsmu014nm2W/R0rSWmFBfa9ZLgAnoGuhH9dbY/uZ69nqENuPw4hfnxyAUX16f23LG0h+8dYo/esfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
+  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

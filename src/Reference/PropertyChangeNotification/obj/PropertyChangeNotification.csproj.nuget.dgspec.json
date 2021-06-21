@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj",
         "projectName": "PropertyChangeNotification",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\PropertyChangeNotification\\PropertyChangeNotification.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\PropertyChangeNotification\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\PropertyChangeNotification\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

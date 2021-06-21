@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
         "projectName": "DragDropDataFormats",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\DragDropDataFormats.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropDataFormats\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropDataFormats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

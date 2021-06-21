@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj",
         "projectName": "Calendars",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -11,3 +11,17 @@ C:\Users\VHASBYMeachD\source\repos\Slats_E\AiChat\obj\Debug\netcoreapp3.1\AiChat
 C:\Users\VHASBYMeachD\source\repos\Slats_E\AiChat\obj\Debug\netcoreapp3.1\AiChat.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Slats_E\AiChat\obj\Debug\netcoreapp3.1\AiChat.dll
 C:\Users\VHASBYMeachD\source\repos\Slats_E\AiChat\obj\Debug\netcoreapp3.1\AiChat.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\bin\Debug\netcoreapp3.1\AiChat.deps.json
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\bin\Debug\netcoreapp3.1\AiChat.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\bin\Debug\netcoreapp3.1\AiChat.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.g.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat_MarkupCompile.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat_MarkupCompile.lref
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.baml
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.g.resources
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.AssemblyInfoInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.AssemblyInfo.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.csproj.CoreCompileInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AiChat\obj\Debug\netcoreapp3.1\AiChat.pdb

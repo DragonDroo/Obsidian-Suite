@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DzTP65SP/nHQAjAHM6bIsZ2R6a6PSxBtCIGOMtG1KsfRxOSKqHqrgGghTpmoEKpZLZvROF8R+wdms+AfTd0J+Q==",
+  "dgSpecHash": "v46vYWKaTGGXh+/jkhmpW7QZl4npYhbSlhLUHFwWW7X8vLqR9HS9yq96x8moGTmy33v3hzS5zYt/wNNFvFLK0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj",
+  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\fluent.ribbon\\8.0.3\\fluent.ribbon.8.0.3.nupkg.sha512",
-    "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\mahapps.metro\\2.4.5\\mahapps.metro.2.4.5.nupkg.sha512",
+    "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\mahapps.metro\\2.4.6\\mahapps.metro.2.4.6.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.6\\microsoft.data.sqlite.core.5.0.6.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\HierarchicalDataTemplate\\HierarchicalDataTemplate.csproj",
+      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\HierarchicalDataTemplate\\HierarchicalDataTemplate.csproj",
       "projectName": "HierarchicalDataTemplate",
-      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\HierarchicalDataTemplate\\HierarchicalDataTemplate.csproj",
+      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\HierarchicalDataTemplate\\HierarchicalDataTemplate.csproj",
       "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\HierarchicalDataTemplate\\obj\\",
+      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\HierarchicalDataTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

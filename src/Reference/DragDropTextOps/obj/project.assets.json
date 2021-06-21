@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropTextOps\\DragDropTextOps.csproj",
+      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropTextOps\\DragDropTextOps.csproj",
       "projectName": "DragDropTextOps",
-      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropTextOps\\DragDropTextOps.csproj",
+      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropTextOps\\DragDropTextOps.csproj",
       "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropTextOps\\obj\\",
+      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropTextOps\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

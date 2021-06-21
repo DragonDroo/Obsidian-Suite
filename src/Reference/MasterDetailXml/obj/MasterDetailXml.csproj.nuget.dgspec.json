@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj",
         "projectName": "MasterDetailXml",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\MasterDetailXml\\MasterDetailXml.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\MasterDetailXml\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\MasterDetailXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

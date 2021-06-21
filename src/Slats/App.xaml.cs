@@ -15,8 +15,6 @@ using Slats.Models;
 using Slats.Services;
 using Slats.ViewModels;
 using Slats.Views;
-using HPlusSports.Core;
-using HPlusSports.DAL;
 
 namespace Slats
 {
@@ -72,7 +70,6 @@ namespace Slats
 
             // Services
             services.AddSingleton<IUserDataService, UserDataService>();
-            //services.AddSingleton<IUserDataService, UserDataService>();
             services.AddSingleton<IWindowManagerService, WindowManagerService>();
             services.AddSingleton<IApplicationInfoService, ApplicationInfoService>();
             services.AddSingleton<IPersistAndRestoreService, PersistAndRestoreService>();
@@ -85,6 +82,7 @@ namespace Slats
             //services.AddSingleton<ISalesPersonService, SalesPersonService>();
             //services.AddSingleton<ISalesPersonRepository, SalesPersonRepository>();
 
+            //
             // Views and ViewModels
             services.AddTransient<CprAssignmentMakerVM>();                  services.AddTransient<CprAssignmentMakerPage>();
             services.AddTransient<ContentGridDetailViewModel>();            services.AddTransient<ContentGridDetailPage>();
@@ -149,13 +147,6 @@ namespace Slats
             // Configuration
             services.Configure<AppConfig>(context.Configuration.GetSection(nameof(AppConfig)));
 
-            Slats.DAL.Configure.ConfigureServices(services, "TestDb.pmt");
-            HPlusSports.DAL.Configure.ConfigureServices(services, "Filename=HPlusSportsSqlite.db");
-            HPlusSports.Core.Configure.ConfigureServices(services);
-         //   Core.Configure.ConfigureServices(services);
-
-            // Add framework services.
-          //  services.AddMvc();
         }
 
         private async void OnExit(object sender, ExitEventArgs e)

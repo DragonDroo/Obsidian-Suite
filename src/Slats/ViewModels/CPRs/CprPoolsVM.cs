@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using HPlusSports.Core;
-using HPlusSports.DAL;
-using HPlusSports.Models;
 using Slats.Contracts.ViewModels;
 using Slats.Core.Contracts.Services;
 using Slats.Core.Models;

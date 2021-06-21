@@ -31,3 +31,15 @@ C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.DAL\bin\Debug\netcoreapp3.1\Sys
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.DAL\obj\Debug\netcoreapp3.1\SLATS.DAL.csproj.CopyComplete
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.DAL\obj\Debug\netcoreapp3.1\SLATS.DAL.dll
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.DAL\obj\Debug\netcoreapp3.1\SLATS.DAL.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.DAL.deps.json
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.DAL.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.DAL.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.AssemblyInfoInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.AssemblyInfo.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csproj.CoreCompileInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csproj.CopyComplete
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.pdb

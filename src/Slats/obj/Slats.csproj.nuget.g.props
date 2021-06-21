@@ -23,6 +23,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\VHASBYMeachD\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.19</PkgMicrosoft_Xaml_Behaviors_Wpf>
     <PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView Condition=" '$(PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView)' == '' ">C:\Users\VHASBYMeachD\.nuget\packages\microsoft.toolkit.wpf.ui.controls.webview\6.1.2</PkgMicrosoft_Toolkit_Wpf_UI_Controls_WebView>
-    <PkgMahApps_Metro Condition=" '$(PkgMahApps_Metro)' == '' ">C:\Users\VHASBYMeachD\.nuget\packages\mahapps.metro\2.4.5</PkgMahApps_Metro>
+    <PkgMahApps_Metro Condition=" '$(PkgMahApps_Metro)' == '' ">C:\Users\VHASBYMeachD\.nuget\packages\mahapps.metro\2.4.6</PkgMahApps_Metro>
   </PropertyGroup>
 </Project>

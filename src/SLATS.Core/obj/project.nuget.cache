@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NS2UY4fjNjTAg0INZ9zMkVhzBc9Mf/dnjdHtNAO/5IisG9pE0UMvnAiQSa2CV/aoWXhDO/XYsGQ32RKVmtKQIw==",
+  "dgSpecHash": "i1MDW13myikWTpDmLdYHBzdfQ6tF8NmfllCXjh4viLeRCtKbvWRRQb8ZO04pp4UdsRePZFqIAJ+8nBjpyk1VLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj",
+  "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.6\\microsoft.data.sqlite.core.5.0.6.nupkg.sha512",

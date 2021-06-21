@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj",
         "projectName": "FlagControl",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

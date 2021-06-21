@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj": {}
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj",
         "projectName": "AiChat",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj",
         "projectName": "Calendars",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj",
         "projectName": "Charting",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,24 +187,24 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj",
         "projectName": "FilterDataGrid",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
       },
       "frameworks": {
         "net46": {}
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj",
         "projectName": "FlagControl",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -258,14 +258,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj",
         "projectName": "RtfEditor",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,14 +319,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
         "projectName": "Slats.Core",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -347,11 +347,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj"
               }
             }
           }
@@ -406,14 +406,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj",
         "projectName": "Slats.DAL",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -434,8 +434,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\Slats.Models.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\Slats.Models.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\Slats.Models.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\Slats.Models.csproj"
               }
             }
           }
@@ -482,14 +482,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\Slats.Models.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\Slats.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\Slats.Models.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\Slats.Models.csproj",
         "projectName": "Slats.Models",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\Slats.Models.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\Slats.Models.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Models\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -540,14 +540,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj",
         "projectName": "Slats",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -568,35 +568,35 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Core\\Slats.Core.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Core\\Slats.Core.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Core\\Slats.Core.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Core\\Slats.Core.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj"
               },
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj"
               }
             }
           }
@@ -617,7 +617,7 @@
             },
             "MahApps.Metro": {
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[2.4.6, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
@@ -663,14 +663,14 @@
         }
       }
     },
-    "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj": {
+    "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj",
+        "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj",
         "projectName": "TextSearchTree",
-        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj",
+        "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj",
         "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\obj\\",
+        "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -691,8 +691,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj": {
-                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj"
+              "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj": {
+                "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj"
               }
             }
           }

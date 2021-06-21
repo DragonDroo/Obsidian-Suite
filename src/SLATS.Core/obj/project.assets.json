@@ -6201,11 +6201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj",
+      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
       "projectName": "Slats.Core",
-      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\Slats.Core.csproj",
+      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
       "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.Core\\obj\\",
+      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6226,11 +6226,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj"
             }
           }
         }

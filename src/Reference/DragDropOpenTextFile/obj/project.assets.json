@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropOpenTextFile\\DragDropOpenTextFile.csproj",
+      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropOpenTextFile\\DragDropOpenTextFile.csproj",
       "projectName": "DragDropOpenTextFile",
-      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropOpenTextFile\\DragDropOpenTextFile.csproj",
+      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropOpenTextFile\\DragDropOpenTextFile.csproj",
       "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Reference\\DragDropOpenTextFile\\obj\\",
+      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Reference\\DragDropOpenTextFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -11,9 +11,6 @@ using System.Windows.Data;
 using Slats.DAL;
 using Slats.Models;
 using Microsoft.EntityFrameworkCore;
-using HPlusSports.Core;
-using HPlusSports.Models;
-using HPlusSports.DAL;
 
 namespace Slats.Views
 {
@@ -80,24 +77,24 @@ namespace Slats.Views
         private void CreatedbTest_Click(object sender, RoutedEventArgs e)
         {
             // load the entities into EF Core
-            DbContextGeneral _context = new DbContextGeneral();
+            //DbContextGeneral _context = new DbContextGeneral();
 
-            // this is for demo purposes only, to make it easier
-            // to get up and running
-            _context.Database.EnsureCreated();
+            //// this is for demo purposes only, to make it easier
+            //// to get up and running
+            //_context.Database.EnsureCreated();
 
-            Person p = new Person();
-            p.EmployeeId = 12;
-            p.FirstName = "asdf";
-            p.LastName = "asdf";
-            p.NtId = "Something";
+            //Person p = new Person();
+            //p.EmployeeId = 12;
+            //p.FirstName = "asdf";
+            //p.LastName = "asdf";
+            //p.NtId = "Something";
 
-            _context.Persons.Add(p);
-            _context.SaveChanges();
+            //_context.Persons.Add(p);
+            //_context.SaveChanges();
 
-            HPlusSportsContext _context2 = new HPlusSportsContext();
-            _context2.Database.EnsureCreated();
-            _context2.SaveChanges();
+            //HPlusSportsContext _context2 = new HPlusSportsContext();
+            //_context2.Database.EnsureCreated();
+            //_context2.SaveChanges();
         }
 
         private void AddRecordTest_Click(object sender, RoutedEventArgs e)

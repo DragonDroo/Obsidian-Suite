@@ -54,7 +54,7 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "MahApps.Metro/2.4.5": {
+      "MahApps.Metro/2.4.6": {
         "type": "package",
         "dependencies": {
           "ControlzEx": "4.4.0"
@@ -2579,10 +2579,10 @@
         "license/License.txt"
       ]
     },
-    "MahApps.Metro/2.4.5": {
-      "sha512": "fUmU2yQgHqUTDDZT494+WcMBrg6G/960et7eqIvKGRRwH0I/d6cA6AuvRIJEQezxCFewweRbIkFvIOS62tjqug==",
+    "MahApps.Metro/2.4.6": {
+      "sha512": "4bmwsTtdATI3kkj4vnJ2fC+GNeAgSvaxS9JvbgyX9xb03qBI7+8nOltFumbHsc1rrmTYBSmHviqssmw2HrfvPw==",
       "type": "package",
-      "path": "mahapps.metro/2.4.5",
+      "path": "mahapps.metro/2.4.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2607,7 +2607,7 @@
         "lib/netcoreapp3.1/MahApps.Metro.pdb",
         "lib/netcoreapp3.1/MahApps.Metro.xml",
         "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll",
-        "mahapps.metro.2.4.5.nupkg.sha512",
+        "mahapps.metro.2.4.6.nupkg.sha512",
         "mahapps.metro.logo.png",
         "mahapps.metro.nuspec",
         "tools/VisualStudioToolsManifest.xml"
@@ -7961,7 +7961,7 @@
       "FilterDataGrid >= 1.0.0",
       "FlagControl >= 1.0.0",
       "Fluent.Ribbon >= 8.0.3",
-      "MahApps.Metro >= 2.4.5",
+      "MahApps.Metro >= 2.4.6",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.Toolkit.Wpf.UI.Controls.WebView >= 6.1.2",
       "Microsoft.Windows.SDK.Contracts >= 10.0.19041.1",
@@ -7981,11 +7981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj",
+      "projectUniqueName": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj",
       "projectName": "Slats",
-      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\Slats.csproj",
+      "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\Slats.csproj",
       "packagesPath": "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats\\obj\\",
+      "outputPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8006,35 +8006,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\AiChat\\AiChat.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Calendars\\Calendars.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\Charting\\Charting.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\FlagControl\\FlagControl.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\RtfEditor\\RtfEditor.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Core\\Slats.Core.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Core\\Slats.Core.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Core\\Slats.Core.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Core\\Slats.Core.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\SLATS.DAL\\Slats.DAL.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.DAL\\Slats.DAL.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\Slats.Models\\Slats.Models.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Slats.Models\\Slats.Models.csproj"
             },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Obsidian-Suite\\src\\TextSearchTree\\TextSearchTree.csproj"
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\TextSearchTree\\TextSearchTree.csproj"
             }
           }
         }
@@ -8055,7 +8055,7 @@
           },
           "MahApps.Metro": {
             "target": "Package",
-            "version": "[2.4.5, )"
+            "version": "[2.4.6, )"
           },
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
