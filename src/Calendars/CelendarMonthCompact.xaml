@@ -1,0 +1,256 @@
+﻿<UserControl x:Class="VALET.UserControls.CelendarMonthCompact"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:dc1="clr-namespace:VALET.UserControls"
+             FocusManager.FocusedElement="{Binding ElementName=MonthCompact}"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="560">
+    <UserControl.Resources>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0"
+                BorderBrush="Blue"
+                Background="AliceBlue"
+                BorderThickness="2" >
+            <Viewbox>
+        <Label x:Name="MonthCompact"
+                Content="MonthName"
+               HorizontalAlignment="Center"
+               FontSize="18"
+               Margin="0,-3" />
+            </Viewbox>
+
+        </Border>
+        <Border Grid.Row="1"
+                BorderBrush="Blue"
+                Background="AliceBlue"
+                BorderThickness="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="10*" />
+                </Grid.ColumnDefinitions>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="0" >
+                <Label Content="Sunday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Padding="0"/>
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="1">
+                    <Label Content="Monday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                        Padding="0" />
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="2">
+                    <Label Content="Tuesday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                        Padding="0" />
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="3">
+                    <Label Content="Wednesday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                        Padding="0" />
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="4">
+                    <Label Content="Thursday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Padding="0" />
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="5">
+                    <Label Content="Friday"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Padding="0" />
+                </Viewbox>
+                <Viewbox Grid.Row="0"
+                       Grid.Column="6">
+                    <Label Content="Saturday"
+                       Grid.Row="0"
+                       Grid.Column="6"
+                       FontSize="10"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="-2" />
+                </Viewbox>
+
+                    <dc1:DayButtonCompact
+                        x:Name="D01"
+                        Grid.Row="1"
+                        Grid.Column="0"                      
+                         />
+                <dc1:DayButtonCompact
+
+                        x:Name="D02"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                         />
+                <dc1:DayButtonCompact                            
+                    x:Name="D03"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        />
+
+                <dc1:DayButtonCompact                 
+                x:Name="D04"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        />
+                <dc1:DayButtonCompact  x:Name="D05"
+                        Grid.Row="1"
+                        Grid.Column="4"
+                          />
+                <dc1:DayButtonCompact  x:Name="D06"
+                        Grid.Row="1"
+                        Grid.Column="5"
+                           />
+                <dc1:DayButtonCompact  x:Name="D07"
+                        Grid.Row="1"
+                        Grid.Column="6"
+                           />
+                <dc1:DayButtonCompact  x:Name="D08"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                           />
+                <dc1:DayButtonCompact  x:Name="D09"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                           />
+                <dc1:DayButtonCompact  x:Name="D10"
+                        Grid.Row="2"
+                        Grid.Column="2"
+                           />
+                <dc1:DayButtonCompact  x:Name="D11"
+                        Grid.Row="2"
+                        Grid.Column="3"
+                           />
+                <dc1:DayButtonCompact  x:Name="D12"
+                        Grid.Row="2"
+                        Grid.Column="4"
+                           />
+                <dc1:DayButtonCompact  x:Name="D13"
+                        Grid.Row="2"
+                        Grid.Column="5"
+                           />
+                <dc1:DayButtonCompact  x:Name="D14"
+                        Grid.Row="2"
+                        Grid.Column="6"
+                           />
+                <dc1:DayButtonCompact x:Name="D15"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                           />
+                <dc1:DayButtonCompact x:Name="D16"
+                        Grid.Row="3"
+                        Grid.Column="1"
+                           />
+                <dc1:DayButtonCompact x:Name="D17"
+                        Grid.Row="3"
+                        Grid.Column="2"
+                           />
+                <dc1:DayButtonCompact x:Name="D18"
+                        Grid.Row="3"
+                        Grid.Column="3"
+                           />
+                <dc1:DayButtonCompact x:Name="D19"
+                        Grid.Row="3"
+                        Grid.Column="4"
+                           />
+                <dc1:DayButtonCompact x:Name="D20"
+                        Grid.Row="3"
+                        Grid.Column="5"
+                           />
+                <dc1:DayButtonCompact x:Name="D21"
+                        Grid.Row="3"
+                        Grid.Column="6"
+                          />
+                <dc1:DayButtonCompact x:Name="D22"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                           />
+                <dc1:DayButtonCompact x:Name="D23"
+                        Grid.Row="4"
+                        Grid.Column="1"
+                           />
+                <dc1:DayButtonCompact x:Name="D24"
+                        Grid.Row="4"
+                        Grid.Column="2"
+                           />
+                <dc1:DayButtonCompact x:Name="D25"
+                        Grid.Row="4"
+                        Grid.Column="3"
+                           />
+                <dc1:DayButtonCompact x:Name="D26"
+                        Grid.Row="4"
+                        Grid.Column="4"
+                           />
+                <dc1:DayButtonCompact x:Name="D27"
+                        Grid.Row="4"
+                        Grid.Column="5"
+                           />
+                <dc1:DayButtonCompact x:Name="D28"
+                        Grid.Row="4"
+                        Grid.Column="6"
+                           />
+                <dc1:DayButtonCompact x:Name="D29"
+                        Grid.Row="6"
+                        Grid.Column="0"
+                           />
+                <dc1:DayButtonCompact x:Name="D30"
+                        Grid.Row="6"
+                        Grid.Column="1"
+                           />
+                <dc1:DayButtonCompact x:Name="D31"
+                        Grid.Row="6"
+                        Grid.Column="2"
+                           />
+                <dc1:DayButtonCompact x:Name="D32"
+                        Grid.Row="6"
+                        Grid.Column="3"
+                           />
+                <dc1:DayButtonCompact x:Name="D33"
+                        Grid.Row="6"
+                        Grid.Column="4"
+                          />
+                <dc1:DayButtonCompact x:Name="D34"
+                        Grid.Row="6"
+                        Grid.Column="5"
+                           />
+                <dc1:DayButtonCompact x:Name="D35"
+                        Grid.Row="6"
+                        Grid.Column="6"
+                          />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

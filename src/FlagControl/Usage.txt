@@ -1,0 +1,107 @@
+
+      xmlns:uc="clr-namespace:VALET.UserControls.FlagControl"
+
+<StackPanel Grid.Column="2"
+                    VerticalAlignment="Top"
+                    Margin="4,8,4,0"
+                    Height="70">
+            <uc:FlagsEnumButton x:Name="EnumButton1"
+                                EnumValue="{Binding InputSelection, Mode=TwoWay, Converter={StaticResource FlagsIntConverter}}">
+                <uc:FlagsEnumButton.ChoicesSource>
+                    <x:Type Type="fc:SecurityFlags" />
+                </uc:FlagsEnumButton.ChoicesSource>
+
+            </uc:FlagsEnumButton>
+
+            <TextBlock HorizontalAlignment="Left"
+                       Text="Current Value" />
+            <TextBlock HorizontalAlignment="Left"
+                       Text="0:"
+                       TextWrapping="Wrap"
+                       x:Name="tbValue" />
+        </StackPanel>
+
+
+
+namespace VALET.Pages
+{
+    /// <summary>
+    /// Interaction logic for Permissons.xaml
+    /// </summary>
+
+    public partial class Permissons : Page
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public Permissons()
+        {
+            InitializeComponent();
+            DataContext = this;
+            EnumButton1.ButtonLabel = "Edit Permissions";
+            EnumButton1.ButtonLabelStyle = FlagsEnumButton.ButtonLabelStyles.FixedText;
+       //     EnumButton1. ("Admin", false);
+        }
+        /// <summary>This is the Property we bind to FlagsEnumButton.EnumValue. Its Type
+        /// is the same as that assigned to FlagsEnumButton.ChoicesSource.
+        /// </summary>
+        public SecurityFlags InputSelection
+        {
+            get => inputSelection;
+            set
+            {
+                if (inputSelection != value)
+                {
+                    inputSelection = value;
+                    tbValue.Text =  $"{inputSelection}";     //$"{(int)inputSelection}: {inputSelection}";
+                    // Notify the GUI that this Property changed.
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(InputSelection)));
+                }
+            }
+        }
+
+        #region ButtonLabelStyle Selection
+
+        private void radIndexes_Checked(object sender, RoutedEventArgs e)
+        {
+            EnumButton1.ButtonLabelStyle = FlagsEnumButton.ButtonLabelStyles.Indexes;
+        }
+
+        private void radValues_Checked(object sender, RoutedEventArgs e)
+        {
+            EnumButton1.ButtonLabelStyle = FlagsEnumButton.ButtonLabelStyles.Values;
+        }
+
+        private void radNames_Checked(object sender, RoutedEventArgs e)
+        {
+            EnumButton1.ButtonLabelStyle = FlagsEnumButton.ButtonLabelStyles.Names;
+        }
+
+        private void radFixedText_Checked(object sender, RoutedEventArgs e)
+        {
+//            if (!string.IsNullOrWhiteSpace(FixedText.Text))
+                EnumButton1.ButtonLabel = "Something Fixed";
+            EnumButton1.ButtonLabelStyle = FlagsEnumButton.ButtonLabelStyles.FixedText;
+        }
+
+        #endregion ButtonLabelStyle Selection
+
+        /// <summary>Change the text displayed when the enum value is zero.
+        /// </summary>
+        private void EmptyText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //if (!string.IsNullOrWhiteSpace(EmptyText.Text))
+            //    EnumButton1.EmptySelectionLabel = EmptyText.Text;
+            //else
+                EnumButton1.EmptySelectionLabel = "None";
+        }
+
+        /// <summary>Set the bound Property to a new value to dmonstrate binding from code to the GUI element.
+        /// </summary>
+        private void btnSetValue_Click(object sender, RoutedEventArgs e)
+        {
+   //         InputSelection = (Inputs)7;
+        }
+
+        private SecurityFlags inputSelection;
+    }
+}

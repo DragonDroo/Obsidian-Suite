@@ -1,0 +1,12 @@
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\bin\Debug\netcoreapp3.1\OBS.DAL.deps.json
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\bin\Debug\netcoreapp3.1\OBS.DAL.dll
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\bin\Debug\netcoreapp3.1\OBS.DAL.pdb
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.dll
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.pdb
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.AssemblyInfoInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.AssemblyInfo.cs
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.csproj.CopyComplete
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.dll
+C:\Users\VHASBYMeachD\source\repos\Obsidian-Suite\src\SLATS.DAL\obj\Debug\netcoreapp3.1\OBS.DAL.pdb

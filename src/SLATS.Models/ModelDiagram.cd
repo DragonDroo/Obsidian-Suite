@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Slats.Models.StaffFolderStructure" Collapsed="true">
+    <Position X="48.75" Y="5.75" Width="1.75" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="5.375" />
+        <Point X="49.688" Y="5.375" />
+        <Point X="49.688" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Admin\StaffFolderStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Announcement">
+    <Position X="64" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAkAAAEAAAAAAAAAAAAAAEQQAAAAAAJAAAAA=</HashCode>
+      <FileName>Comms\Announcement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.NotifyEmail">
+    <Position X="69.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comms\NotifyEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.NotifyEmailTemplate">
+    <Position X="44.25" Y="5.75" Width="2" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="5.375" />
+        <Point X="45.25" Y="5.375" />
+        <Point X="45.25" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comms\NotifyEmailTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.NotifyEntity">
+    <Position X="64" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comms\NotifyEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.NotifyTemplateEntity">
+    <Position X="50.75" Y="5.75" Width="2" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="5.375" />
+        <Point X="51.75" Y="5.375" />
+        <Point X="51.75" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comms\NotifyTemplateEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Acronyms">
+    <Position X="51.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>General\Acronyms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.FlipPageNode">
+    <Position X="46" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAACAAACAAAAAAAAEAAAA=</HashCode>
+      <FileName>General\FlipPageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.FlipPageNote">
+    <Position X="46.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\FlipPageNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Quarter" Collapsed="true">
+    <Position X="54.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAIAACBAABAAAAAAAAAAAAAAQAIAAAAgAAAAAAA=</HashCode>
+      <FileName>General\Periods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Quarters" Collapsed="true">
+    <Position X="56.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>General\Periods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.DeMeasure">
+    <Position X="44" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAIAAA=</HashCode>
+      <FileName>Measures\DeMeasure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.DeMetric">
+    <Position X="42.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Measures\DeMetric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.EARR" Collapsed="true">
+    <Position X="54.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAQAAAAAAAAAgAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\EARR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Meeting">
+    <Position X="66" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\Meeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.MeetingAttendance" Collapsed="true">
+    <Position X="56.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\MeetingAttendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.MeetingFlag" Collapsed="true">
+    <Position X="58.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\MeetingFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.MeetingTemplate" Collapsed="true">
+    <Position X="60" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\MeetingTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.TmsCourses">
+    <Position X="44.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\TmsCourses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.TmsLearningHistory">
+    <Position X="50.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAAAAAgAAAIAAAAAAAAIACABAAAAIAAAA=</HashCode>
+      <FileName>Measures\TmsLearningHistoryLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.TmsReportDates">
+    <Position X="73.75" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Measures\TmsReportDates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.CprAnswers">
+    <Position X="48.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reviews\CprAnswers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.CprAssignments">
+    <Position X="82" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAACIAEAAAAAEAAAEAAAAAAAAAAFEAAAA=</HashCode>
+      <FileName>Reviews\CprAssignments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.CprCore" Collapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACIAQAAAAhAgAAACAAAAAAAAAEAgAAAAEAAAAQ=</HashCode>
+      <FileName>Reviews\CprCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.CprQuestions" Collapsed="true">
+    <Position X="46.5" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="5.375" />
+        <Point X="47.188" Y="5.375" />
+        <Point X="47.188" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAACAAAAAAAAAAAAAAABEAQAAAAAAAAA=</HashCode>
+      <FileName>Reviews\CprQuestions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.ScheduleBlock" Collapsed="true">
+    <Position X="58.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schedule\ScheduleBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.ScheduleDay" Collapsed="true">
+    <Position X="60" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schedule\ScheduleDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.SchedulePP" Collapsed="true">
+    <Position X="54.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schedule\SchedulePP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.CprPool">
+    <Position X="40.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAIAAA=</HashCode>
+      <FileName>StaffFacts\CprPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Person">
+    <Position X="78.5" Y="10.75" Width="2" />
+    <InheritanceLine Type="Slats.Models.EntityTracked" FixedToPoint="true">
+      <Path>
+        <Point X="71.25" Y="2.761" />
+        <Point X="71.25" Y="10.45" />
+        <Point X="79.438" Y="10.45" />
+        <Point X="79.438" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAAIAQAAAAAEABAAAAAAAAAAAAAgASAAg=</HashCode>
+      <FileName>StaffFacts\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Position">
+    <Position X="76" Y="10.75" Width="2.25" />
+    <InheritanceLine Type="Slats.Models.EntityTracked" FixedToPoint="true">
+      <Path>
+        <Point X="71.25" Y="2.761" />
+        <Point X="71.25" Y="10.45" />
+        <Point X="77.125" Y="10.45" />
+        <Point X="77.125" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAEBFAEAAAQgAAAgMJAAAAAAAAAAYBAAAAIQAEAgIA=</HashCode>
+      <FileName>StaffFacts\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.PositionAssigned">
+    <Position X="48.75" Y="8" Width="2.5" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="7.7" />
+        <Point X="50" Y="7.7" />
+        <Point X="50" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>StaffFacts\PositionAssigned.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.StaffAdmin" Collapsed="true">
+    <Position X="56.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffFacts\StaffAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.StaffContact">
+    <Position X="75.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhIAgAAAAAAAAQAIAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffFacts\StaffContact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.StaffPriv">
+    <Position X="62" Y="10.75" Width="2.25" />
+    <InheritanceLine Type="Slats.Models.EntityTracked" FixedToPoint="true">
+      <Path>
+        <Point X="71.25" Y="2.761" />
+        <Point X="71.25" Y="10.45" />
+        <Point X="62.938" Y="10.45" />
+        <Point X="62.938" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAACAEAAAABAQAQAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffFacts\StaffPriv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.StaffProvider">
+    <Position X="71.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABQAAgEAAAUAAAAIAAAMAAAAAAAAAAABAAACAA=</HashCode>
+      <FileName>StaffFacts\StaffProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Staff">
+    <Position X="67.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAA=</HashCode>
+      <FileName>StaffFacts\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.HiringStatus">
+    <Position X="42.25" Y="5.75" Width="1.75" />
+    <InheritanceLine Type="Slats.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="48.5" Y="1.062" />
+        <Point X="48.5" Y="5.375" />
+        <Point X="43.062" Y="5.375" />
+        <Point X="43.062" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>StaffManagement\HiringStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.tblHiringTasks" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACFAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffManagement\tblHiringTasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Entity" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.EntityTracked">
+    <Position X="70.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAACAEAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EntityTracked.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.FPPE">
+    <Position X="77.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAFAEAAAALYACCBSAAAASIBAAFIACAEBAAACAcMA=</HashCode>
+      <FileName>FPPE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.MedPrivilege">
+    <Position X="80" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAKAAAAAAQAAAAAA=</HashCode>
+      <FileName>Structure\MedPrivilege.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.MedPrivilegeProf">
+    <Position X="60.75" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAA=</HashCode>
+      <FileName>Structure\MedPrivilegeProf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Program">
+    <Position X="69.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Section">
+    <Position X="42" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Structure\Section.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Service">
+    <Position X="66.5" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.Clinic">
+    <Position X="71.5" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\Clinic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slats.Models.ProgramRole">
+    <Position X="64.5" Y="10.75" Width="1.75" />
+    <InheritanceLine Type="Slats.Models.EntityTracked" FixedToPoint="true">
+      <Path>
+        <Point X="71.25" Y="2.761" />
+        <Point X="71.25" Y="10.45" />
+        <Point X="65.375" Y="10.45" />
+        <Point X="65.375" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Structure\ProgramRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Slats.Models.QuestionType" Collapsed="true">
+    <Position X="54.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Reviews\CprQuestions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

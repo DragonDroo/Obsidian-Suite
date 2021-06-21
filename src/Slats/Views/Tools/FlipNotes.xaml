@@ -1,0 +1,102 @@
+﻿<Page x:Class="Slats.Views.FlipNotes"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Slats.Views"
+      xmlns:Stt="clr-namespace:VALET.UserControls;assembly=TextSearchTree"
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:FlipNotesVM}"      
+      mc:Ignorable="d"
+      d:DesignHeight="450"
+      d:DesignWidth="800"
+      Title="FlipNotes">
+
+    <Border BorderBrush="LightYellow"
+            BorderThickness="5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="0"
+                    Grid.Column="1">
+
+            <Button Content="Undo"
+                    x:Name="btnUndo"
+                    Height="30"
+                    Width="30"
+                    Margin="30,0,0,0"
+                    Click="btnUndo_Click" />
+            <Button Content="ReDo"
+                    x:Name="btnRedo"
+                    Height="30"
+                    Width="30"
+                    Padding="3"
+                    Margin="3,0,0,0"
+                    Click="btnRedo_Click" />
+            <Button Content="Color"
+                    x:Name="ForegroundColor"
+                    Height="30"
+                    Width="30"
+                    Padding="3"
+                    Margin="3,0,0,0"
+                    Click="ForegroundColor_Click" />
+            <ToggleButton Content="B"
+                          Height="30"
+                          Width="30"
+                          Padding="3"
+                          Margin="3,0,0,0"
+                          x:Name="btnBold"
+                          Click="btnBold_Click" />
+            <ToggleButton Content="I"
+                          Height="30"
+                          Width="30"
+                          Padding="3"
+                          Margin="3,0,0,0"
+                          x:Name="btnItalic"
+                          Click="btnItalic_Click" />
+            <ToggleButton Content="U"
+                          Height="30"
+                          Width="30"
+                          Padding="3"
+                          Margin="3,0,0,0"
+                          x:Name="btnUnderline"
+                          Click="btnUnderline_Click" />
+            <!--<Image Source="/WpfTutorialSamples;component/Images/text_bold.png"
+                       Width="16"
+                       Height="16" />-->
+
+            <ComboBox Name="cmbFontFamily"
+                      Width="150"
+                      SelectionChanged="cmbFontFamily_SelectionChanged" />
+            <ComboBox Name="cmbFontSize"
+                      Width="50"
+                      IsEditable="True"
+                      TextBoxBase.TextChanged="cmbFontSize_TextChanged" />
+        </StackPanel>
+
+        <!--<Stt:TextSearchTree Grid.Row="1"
+                               Grid.Column="0"
+                               Margin="3,3,3,3" />-->
+
+        <RichTextBox Grid.Column="1"
+                     x:Name="FlipPage"
+                     Grid.Row="1"
+                     Margin="3,3,3,3"
+                     Background="Transparent"
+                     VerticalScrollBarVisibility="Auto"
+                     BorderBrush="Black"
+                     BorderThickness="2"
+                     Hyperlink.Click="FlipPage_Click"
+                     SelectionChanged="FlipPage_SelectionChanged" />
+
+    </Grid>
+    </Border>
+</Page>

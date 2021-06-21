@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="AiChat.AiChat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AiChat"
+             mc:Ignorable="d"
+             d:DesignHeight="25"
+             d:DesignWidth="400">
+    <Grid>
+
+        <Expander Header="AI Chat"
+                  ExpandDirection="Up"
+                  Padding="0"
+                  Background="LightBlue">
+            <Grid Background="#FFE5E5E5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Border x:Name="ChatPaneBorder"
+                        BorderBrush="Blue"
+                        BorderThickness="1"
+                        Background="LightBlue"
+                        Grid.Row="0"
+                        CornerRadius="5,5,0,0">
+                </Border>
+                <Border x:Name="ChatTextBorder"
+                        BorderBrush="Blue"
+                        BorderThickness="1"
+                        Background="LightBlue"
+                        Grid.Row="1"
+                        CornerRadius="5,5,5,5">
+                    <TextBlock Background="Transparent"
+                               LostFocus="NotChatting"
+                               GotFocus="StartChat" />
+                </Border>
+            </Grid>
+
+        </Expander>
+    </Grid>
+</UserControl>
