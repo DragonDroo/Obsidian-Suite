@@ -2431,6 +2431,19 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "HexGrid/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/HexGrid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HexGrid.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "RtfEditor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7927,6 +7940,11 @@
       "path": "../FlagControl/FlagControl.csproj",
       "msbuildProject": "../FlagControl/FlagControl.csproj"
     },
+    "HexGrid/1.0.0": {
+      "type": "project",
+      "path": "../Controls/HexGrid/HexGrid.csproj",
+      "msbuildProject": "../Controls/HexGrid/HexGrid.csproj"
+    },
     "RtfEditor/1.0.0": {
       "type": "project",
       "path": "../RtfEditor/RtfEditor.csproj",
@@ -7961,6 +7979,7 @@
       "FilterDataGrid >= 1.0.0",
       "FlagControl >= 1.0.0",
       "Fluent.Ribbon >= 8.0.3",
+      "HexGrid >= 1.0.0",
       "MahApps.Metro >= 2.4.6",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.Toolkit.Wpf.UI.Controls.WebView >= 6.1.2",
@@ -8017,6 +8036,9 @@
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
+            },
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\HexGrid\\HexGrid.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\HexGrid\\HexGrid.csproj"
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj"

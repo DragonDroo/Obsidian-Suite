@@ -61,7 +61,7 @@ namespace Slats.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;component/views/example/contentgriddetailpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/views/example/contentgriddetailpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Example\ContentGridDetailPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

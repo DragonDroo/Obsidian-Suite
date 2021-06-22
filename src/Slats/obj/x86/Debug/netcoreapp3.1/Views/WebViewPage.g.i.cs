@@ -63,7 +63,7 @@ namespace Slats.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;component/views/webviewpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/views/webviewpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\WebViewPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
