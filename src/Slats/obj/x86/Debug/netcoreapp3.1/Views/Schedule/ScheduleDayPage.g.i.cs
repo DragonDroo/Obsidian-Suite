@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Controls.Calendars;
 using Slats.ViewModels;
 using Slats.Views;
 using System;
@@ -33,6 +34,7 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
+using VALET.UserControls;
 
 
 namespace Slats.Views {

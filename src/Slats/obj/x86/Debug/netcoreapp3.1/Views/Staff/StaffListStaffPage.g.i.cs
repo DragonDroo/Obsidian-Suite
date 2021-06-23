@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Slats.Properties;
 using Slats.Views;
 using System;
 using System.Diagnostics;

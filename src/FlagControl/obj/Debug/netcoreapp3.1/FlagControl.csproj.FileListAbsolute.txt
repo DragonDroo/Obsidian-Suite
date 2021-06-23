@@ -10,16 +10,3 @@ C:\Users\VHASBYMeachD\source\repos\Slats_E\FlagControl\obj\Debug\netcoreapp3.1\F
 C:\Users\VHASBYMeachD\source\repos\Slats_E\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Slats_E\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.dll
 C:\Users\VHASBYMeachD\source\repos\Slats_E\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\bin\Debug\netcoreapp3.1\FlagControl.deps.json
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\bin\Debug\netcoreapp3.1\FlagControl.dll
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\bin\Debug\netcoreapp3.1\FlagControl.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.csprojAssemblyReference.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagsEnumButton.baml
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagsEnumButton.g.cs
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl_MarkupCompile.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.g.resources
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.AssemblyInfoInputs.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.AssemblyInfo.cs
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.csproj.CoreCompileInputs.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.dll
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FlagControl\obj\Debug\netcoreapp3.1\FlagControl.pdb

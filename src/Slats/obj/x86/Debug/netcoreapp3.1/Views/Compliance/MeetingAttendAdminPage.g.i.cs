@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using RtfEditor;
 using Slats.ViewModels;
 using Slats.Views;
 using System;

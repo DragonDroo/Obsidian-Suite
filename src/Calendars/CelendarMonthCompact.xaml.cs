@@ -11,16 +11,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace VALET.UserControls
+namespace Controls.Calendars
 {
     /// <summary>
     /// Interaction logic for CelendarMonthCompact.xaml
     /// </summary>
     public partial class CelendarMonthCompact : UserControl
     {
+        private CalendarMonthVM _viewModel;
+        public string monthName = "January";
+        public string MonthName { get; set; }
         public CelendarMonthCompact()
         {
             InitializeComponent();
+            MonthName = "January";
         }
     }
 }

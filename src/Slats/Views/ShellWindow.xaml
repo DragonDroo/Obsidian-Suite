@@ -344,9 +344,9 @@
                                 <RowDefinition Height="1*" />
                                 <RowDefinition Height="1*" />
                             </Grid.RowDefinitions>
-                            <Button Content="{x:Static properties:Resources.ShellMenuLeavePollHeader}"
-                                    Command="{Binding LeavePollCommand}"
-                                    Grid.Row="2"
+                            <Button Content="{x:Static properties:Resources.ShellMenuItemViewsFileManagerPageHeader}"
+                                    Command="{Binding MenuViewsFileManagerCommand}"
+                                    Grid.Row="1"
                                     Grid.Column="0" />
                         </Grid>
                         <Image Grid.Column="0"

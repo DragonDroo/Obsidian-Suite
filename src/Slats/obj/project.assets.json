@@ -2383,19 +2383,6 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Calendars/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Calendars.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Calendars.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "Charting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7920,11 +7907,6 @@
       "path": "../AiChat/AiChat.csproj",
       "msbuildProject": "../AiChat/AiChat.csproj"
     },
-    "Calendars/1.0.0": {
-      "type": "project",
-      "path": "../Calendars/Calendars.csproj",
-      "msbuildProject": "../Calendars/Calendars.csproj"
-    },
     "Charting/1.0.0": {
       "type": "project",
       "path": "../Controls/Charting/Charting.csproj",
@@ -7974,7 +7956,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AiChat >= 1.0.0",
-      "Calendars >= 1.0.0",
       "Charting >= 1.0.0",
       "FilterDataGrid >= 1.0.0",
       "FlagControl >= 1.0.0",
@@ -8027,9 +8008,6 @@
           "projectReferences": {
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj"
-            },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Calendars\\Calendars.csproj"
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj"
