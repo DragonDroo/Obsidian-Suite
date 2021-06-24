@@ -5,9 +5,15 @@
     <Compile Update="DaySelect.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MonthSelect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="DaySelect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MonthSelect.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

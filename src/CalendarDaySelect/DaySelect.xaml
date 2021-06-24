@@ -16,7 +16,7 @@
                 MouseLeftButtonDown="Border_MouseLeftButtonDown"
                 MouseRightButtonDown="Border_MouseRightButtonDown">
             <!--MouseRightButtonDown="ShowDayDetail">-->
-            <Border BorderBrush="LightGray"
+            <Border BorderBrush="{Binding HighlightBrush}"
                     BorderThickness="2"
                     CornerRadius="4">
                 <Border BorderBrush="DarkBlue"

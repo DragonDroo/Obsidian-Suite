@@ -26,6 +26,8 @@ namespace CalendarDaySelect
         {
             InitializeComponent();
             BackgroundBrush = new SolidColorBrush(Colors.CadetBlue);
+            HighlightBrush = new SolidColorBrush(Colors.LightGray);
+
             //DataContext = dvm;
         }
 
@@ -36,6 +38,18 @@ namespace CalendarDaySelect
         private int _Flagackground;
         private int _FlagForeground;
         private int _DayOfMonth;
+
+        private Brush _HighlightBrush;
+        public Brush HighlightBrush
+        {
+            get => _HighlightBrush;
+
+            set
+            {
+                _HighlightBrush = value;
+                RaisePropertyChanged();
+            }
+        }
 
         private Brush _background;
         public Brush BackgroundBrush
@@ -135,6 +149,7 @@ namespace CalendarDaySelect
 
         private void Border_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
+            HighlightBrush = new SolidColorBrush(Colors.DarkGoldenrod);
 
         }
     }

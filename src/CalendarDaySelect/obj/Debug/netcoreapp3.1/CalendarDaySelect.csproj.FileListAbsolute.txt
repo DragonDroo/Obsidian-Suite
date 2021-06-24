@@ -12,3 +12,5 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelec
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelect\obj\Debug\netcoreapp3.1\CalendarDaySelect.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelect\obj\Debug\netcoreapp3.1\CalendarDaySelect.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelect\obj\Debug\netcoreapp3.1\CalendarDaySelect.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelect\obj\Debug\netcoreapp3.1\MonthSelect.g.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\CalendarDaySelect\obj\Debug\netcoreapp3.1\MonthSelect.baml

@@ -7,33 +7,193 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" x:Name="MonthGrid">
+        <TabControl>
+            <TabItem Header="Month View">
+        <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="400" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="1*" />
-            </Grid.RowDefinitions>
-  
+            <Grid Grid.Column="0"
+                  x:Name="MonthGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <TextBlock Text="Sunday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="0" />
+                <TextBlock Text="Monday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="1" />
+                <TextBlock Text="Tuesday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="2" />
+                <TextBlock Text="Wednesday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="3" />
+                <TextBlock Text="Thursday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="4" />
+                <TextBlock Text="Friday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="5" />
+                <TextBlock Text="Saturday"
+                           TextAlignment="Center"
+                           Grid.Row="0"
+                           Grid.Column="6" />
+            </Grid>
+            <StackPanel Grid.Column="7">
+                <Button Content="Day"
+                        Click="Button_Click" />
+            </StackPanel>
         </Grid>
-        <StackPanel Grid.Column="7">
-            <Button Content="Day"
-                    Click="Button_Click" />
-        </StackPanel>
+            </TabItem>
+            <TabItem Header="Year View">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="75" />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" x:Name="CalendarFrame">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                            <RowDefinition Height="2*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>    
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                    
+                        <TextBlock Text="January  " Grid.Row="1"/>
+                        <TextBlock Text="Feruary  " Grid.Row="2"/>
+                        <TextBlock Text="March    " Grid.Row="3"/>
+                        <TextBlock Text="April    " Grid.Row="4"/>
+                        <TextBlock Text="May      " Grid.Row="5"/>
+                        <TextBlock Text="June     " Grid.Row="6"/>
+                        <TextBlock Text="July     " Grid.Row="7"/>
+                        <TextBlock Text="August   " Grid.Row="8"/>
+                        <TextBlock Text="September" Grid.Row="9"/>
+                        <TextBlock Text="October  " Grid.Row="10"/>
+                        <TextBlock Text="Novemer  " Grid.Row="11"/>
+                        <TextBlock Text="December " Grid.Row="12"/>
+                        
+                        
+                        
+                        <TextBlock Text="S" Grid.Column="1"  TextAlignment="Center"/>
+                        <TextBlock Text="M" Grid.Column="2"  TextAlignment="Center"/>
+                        <TextBlock Text="T" Grid.Column="3"  TextAlignment="Center"/>
+                        <TextBlock Text="W" Grid.Column="4"  TextAlignment="Center"/>
+                        <TextBlock Text="T" Grid.Column="5"  TextAlignment="Center"/>
+                        <TextBlock Text="F" Grid.Column="6"  TextAlignment="Center"/>
+                        <TextBlock Text="S" Grid.Column="7"  TextAlignment="Center" />
+                        <TextBlock Text="S" Grid.Column="8"  TextAlignment="Center" />
+                        <TextBlock Text="M" Grid.Column="9"  TextAlignment="Center" />
+                        <TextBlock Text="T" Grid.Column="10" TextAlignment="Center"  />
+                        <TextBlock Text="W" Grid.Column="11" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="12" TextAlignment="Center"  />
+                        <TextBlock Text="F" Grid.Column="13" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="14" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="15" TextAlignment="Center"  />
+                        <TextBlock Text="M" Grid.Column="16" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="17" TextAlignment="Center"  />
+                        <TextBlock Text="W" Grid.Column="18" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="19" TextAlignment="Center"  />
+                        <TextBlock Text="F" Grid.Column="20" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="21" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="22" TextAlignment="Center"  />
+                        <TextBlock Text="M" Grid.Column="23" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="24" TextAlignment="Center"  />
+                        <TextBlock Text="W" Grid.Column="25" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="26" TextAlignment="Center"  />
+                        <TextBlock Text="F" Grid.Column="27" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="28" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="29" TextAlignment="Center"  />
+                        <TextBlock Text="M" Grid.Column="30" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="31" TextAlignment="Center"  />
+                        <TextBlock Text="W" Grid.Column="32" TextAlignment="Center"  />
+                        <TextBlock Text="T" Grid.Column="33" TextAlignment="Center"  />
+                        <TextBlock Text="F" Grid.Column="34" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="35" TextAlignment="Center"  />
+                        <TextBlock Text="S" Grid.Column="36" TextAlignment="Center"  />
+                        <TextBlock Text="M" Grid.Column="37" TextAlignment="Center"  />
+                    </Grid>
+                    
+                    <Button Grid.Column="1"
+                            Content="Populate" 
+                            Click="Button_Click_1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Monthly">
+                <Day:MonthSelect />
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
