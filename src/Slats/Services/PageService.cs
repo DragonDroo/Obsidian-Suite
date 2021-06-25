@@ -26,6 +26,11 @@ namespace Slats.Services
             Configure<ContentGridDetailViewModel, ContentGridDetailPage>();
             Configure<MasterDetailViewModel, MasterDetailPage>();
             Configure<SettingsViewModel, SettingsPage>();
+            Configure<AboutVM, About>();
+            Configure<NotificationSettingsVM, NotificationSettings>();  
+            Configure<ServiceSettingsVM,ServiceSettings>();
+            Configure<SignInConnectVM,SignInConnect>();
+            Configure<SystemSettingsVM,SystemSettings>();
             Configure<MeetingAttendanceVM, MeetingAttendancePage>();
             Configure<CprAssignmentMakerVM, CprAssignmentMakerPage>();
             Configure<CprReviewAdminVM, CprReviewAdminPage>();

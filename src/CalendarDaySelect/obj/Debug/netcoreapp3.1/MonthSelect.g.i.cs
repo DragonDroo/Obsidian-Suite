@@ -61,7 +61,7 @@ namespace CalendarDaySelect {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CalendarDaySelect;V1.0.0.0;component/monthselect.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CalendarDaySelect;component/monthselect.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MonthSelect.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -14,20 +14,22 @@
                 CornerRadius="4"
                 Background="{Binding BackgroundBrush}"
                 MouseLeftButtonDown="Border_MouseLeftButtonDown"
-                MouseRightButtonDown="Border_MouseRightButtonDown">
+                MouseRightButtonDown="Border_MouseRightButtonDown"
+                MouseDown="Border_MouseDown"  >
             <!--MouseRightButtonDown="ShowDayDetail">-->
-            <Border BorderBrush="{Binding HighlightBrush}"
-                    BorderThickness="2"
+            <Border BorderBrush="{Binding DayBorderBrush}"
+                    BorderThickness="3"
                     CornerRadius="4">
-                <Border BorderBrush="DarkBlue"
-                        BorderThickness="1"
+                <Border 
                         CornerRadius="4"
                         Background="{Binding BackgroundBrush}">
                     <Viewbox>
                         <TextBlock x:Name="DayOfMonthDisp"
                                    Text="{Binding Path=DayOfMonth}"
+                                   Foreground="{Binding Path=DayForegroundBrush}"
                                    Padding="0"
                                    FontFamily="Times New Roman" />
+
                     </Viewbox>
                 </Border>
             </Border>

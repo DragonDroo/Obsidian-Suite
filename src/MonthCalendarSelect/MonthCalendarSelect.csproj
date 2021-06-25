@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CalendarDaySelect\CalendarDaySelect.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Page Update="DayButtonCompact.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
     </Page>

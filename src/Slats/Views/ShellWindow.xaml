@@ -99,24 +99,21 @@
                             <i:Interaction.Behaviors>
                                 <behaviors:BackstageTabNavigationBehavior x:Name="navigationBehavior" />
                             </i:Interaction.Behaviors>
+                            <Fluent:BackstageTabItem Tag="Slats.ViewModels.SignInConnectVM"
+                                                     Header="Sign In and Connect" />
                             <Fluent:BackstageTabItem
                                 Tag="Slats.ViewModels.SettingsViewModel"
                                 Header="{x:Static properties:Resources.ShellPageRibbonBackstageTabSettingsHeader}" />
                             <Fluent:BackstageTabItem
-                                Tag="Slats.ViewModels.SettingsViewModel"
-                                Header="Notification Settings" />
-                            <Fluent:BackstageTabItem
-                                Tag="Slats.ViewModels.SettingsViewModel"
-                                Header="{x:Static properties:Resources.ShellPageRibbonBackstageTabSettingsHeader}" />
-                            <Fluent:BackstageTabItem
-                                Tag="Slats.ViewModels.SettingsViewModel"
-                                Header="{x:Static properties:Resources.ShellPageRibbonBackstageTabSettingsHeader}" />
-                            <Fluent:BackstageTabItem
-                                Tag="Slats.ViewModels.SettingsViewModel"
-                                Header="{x:Static properties:Resources.ShellPageRibbonBackstageTabSettingsHeader}" />
-                            <Fluent:BackstageTabItem
-                                Tag="Slats.ViewModels.SettingsViewModel"
+                                Tag="Slats.ViewModels.NotificationSettingsVM"
+                                Header="Notification Settings" />                     
+                            
+                            <Fluent:BackstageTabItem Tag="Slats.ViewModels.ServiceSettingsVM"
+                                Header="Service Settings" />
+                            <Fluent:BackstageTabItem Tag="Slats.ViewModels.SystemSettingsVM"
                                 Header="System Settings" />
+                            <Fluent:BackstageTabItem Tag="Slats.ViewModels.AboutVM"
+                                                     Header="About" />
                         </Fluent:BackstageTabControl>
                     </Fluent:Backstage>
                 </Fluent:Ribbon.Menu>

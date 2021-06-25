@@ -33,3 +33,17 @@ C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.Core\bin\Debug\netcoreapp3.1\Sy
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.Core\obj\Debug\netcoreapp3.1\SLATS.Core.csproj.CopyComplete
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.Core\obj\Debug\netcoreapp3.1\SLATS.Core.dll
 C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.Core\obj\Debug\netcoreapp3.1\SLATS.Core.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Core.deps.json
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Core.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Core.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.DAL.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Models.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.DAL.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Models.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.AssemblyInfoInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.AssemblyInfo.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csproj.CoreCompileInputs.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csproj.CopyComplete
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.pdb

@@ -2383,6 +2383,19 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "CalendarDaySelect/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CalendarDaySelect.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalendarDaySelect.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Charting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7907,6 +7920,11 @@
       "path": "../AiChat/AiChat.csproj",
       "msbuildProject": "../AiChat/AiChat.csproj"
     },
+    "CalendarDaySelect/1.0.0": {
+      "type": "project",
+      "path": "../CalendarDaySelect/CalendarDaySelect.csproj",
+      "msbuildProject": "../CalendarDaySelect/CalendarDaySelect.csproj"
+    },
     "Charting/1.0.0": {
       "type": "project",
       "path": "../Controls/Charting/Charting.csproj",
@@ -7956,6 +7974,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AiChat >= 1.0.0",
+      "CalendarDaySelect >= 1.0.0",
       "Charting >= 1.0.0",
       "FilterDataGrid >= 1.0.0",
       "FlagControl >= 1.0.0",
@@ -8008,6 +8027,9 @@
           "projectReferences": {
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\AiChat\\AiChat.csproj"
+            },
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj"
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj"

@@ -26,31 +26,58 @@ namespace CalendarDaySelect
         {
             InitializeComponent();
             BackgroundBrush = new SolidColorBrush(Colors.CadetBlue);
-            HighlightBrush = new SolidColorBrush(Colors.LightGray);
-
+            BorderBrush = new SolidColorBrush(Colors.LightGray);
+            DayForegroundBrush = new SolidColorBrush(Colors.Black);
+            BackgroundBrushes.Add(new SolidColorBrush(Colors.LightGray));
+            BackgroundBrushes.Add(new SolidColorBrush(Colors.DarkGray));
+            BackgroundBrushes.Add(new SolidColorBrush(Colors.Silver));
+            BackgroundBrushes.Add(new SolidColorBrush(Colors.White));
+            DayBorderBrushes.Add(new SolidColorBrush(Colors.White));
+            DayBorderBrushes.Add(new SolidColorBrush(Colors.Yellow));
+            DayBorderBrushes.Add(new SolidColorBrush(Colors.Green));
+            DayBorderBrushes.Add(new SolidColorBrush(Colors.Pink));
+            DayForegroundBrushes.Add(new SolidColorBrush(Colors.Pink));
+            DayForegroundBrushes.Add(new SolidColorBrush(Colors.Violet));
+            DayForegroundBrushes.Add(new SolidColorBrush(Colors.Blue));
+            DayForegroundBrushes.Add(new SolidColorBrush(Colors.Black));
             //DataContext = dvm;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        //ToDo: Add ability to update Brush collections from outside the control
+        private List<Brush> BackgroundBrushes = new List<Brush>();
+        private List<Brush> DayBorderBrushes = new List<Brush>();
+        private List<Brush> DayForegroundBrushes = new List<Brush>();
         private DateTime _Date;
         private int _FlagBorder;
         private int _Flagackground;
         private int _FlagForeground;
         private int _DayOfMonth;
 
-        private Brush _HighlightBrush;
-        public Brush HighlightBrush
+        private Brush _DayForegroundBrush;
+        public Brush DayForegroundBrush
         {
-            get => _HighlightBrush;
+            get => _DayForegroundBrush;
 
             set
             {
-                _HighlightBrush = value;
+                _DayForegroundBrush = value;
                 RaisePropertyChanged();
             }
         }
 
+        private Brush _DayBorderBrush;
+        public Brush DayBorderBrush
+        {
+            get => _DayBorderBrush;
+
+            set
+            {
+                _DayBorderBrush = value;
+                RaisePropertyChanged();
+            }
+        }
         private Brush _background;
         public Brush BackgroundBrush
         {
@@ -90,6 +117,7 @@ namespace CalendarDaySelect
             set
             {
                 _FlagBorder = value;
+                DayBorderBrush = DayBorderBrushes[_FlagBorder];
             }
 
         }
@@ -99,6 +127,7 @@ namespace CalendarDaySelect
             set
             {
                 _Flagackground = value;
+                BackgroundBrush = BackgroundBrushes[_Flagackground];
             }
 
         }
@@ -108,8 +137,8 @@ namespace CalendarDaySelect
             set
             {
                 _FlagForeground = value;
+                DayForegroundBrush = DayForegroundBrushes[_FlagForeground];
             }
-
         }
 
 
@@ -143,14 +172,24 @@ namespace CalendarDaySelect
 
         private void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            BackgroundBrush = new SolidColorBrush(Colors.DarkBlue);
-
+            //BackgroundBrush = new SolidColorBrush(Colors.DarkBlue);
+            
+            if (Flagackground >= BackgroundBrushes.Count-1) { Flagackground = 0; } else { Flagackground++; }
         }
 
         private void Border_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            HighlightBrush = new SolidColorBrush(Colors.DarkGoldenrod);
+            //HighlightBrush = new SolidColorBrush(Colors.DarkGoldenrod);
+            if (FlagBorder >= DayBorderBrushes.Count-1) { FlagBorder = 0; } else { FlagBorder++; }
 
+        }
+
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Middle)
+            {
+                if (FlagForeground >= DayForegroundBrushes.Count - 1) { FlagForeground = 0; } else { FlagForeground++; }
+            }
         }
     }
 }

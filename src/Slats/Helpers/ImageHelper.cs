@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Windows;
 using System.Windows.Media.Imaging;
 
 namespace Slats.Helpers
@@ -18,7 +19,10 @@ namespace Slats.Helpers
 
         public static BitmapImage ImageFromAssetsFile(string fileName)
         {
-            var imageUri = new Uri($"pack://application:,,,/Assets/{fileName}");
+            //ToDo: remedy pack resolution
+            //var imageUri = new Uri($"pack://Application:,,,/Slats/Assets/{fileName}");
+            var imageUri = new Uri($"C:/Users/VHASBYMeachD/source/repos/Service-Line-Admin-Tools/src/Slats/Assets/{fileName}");
+            //MessageBox.Show(imageUri.Ur ToString());
             var image = new BitmapImage(imageUri);
             return image;
         }

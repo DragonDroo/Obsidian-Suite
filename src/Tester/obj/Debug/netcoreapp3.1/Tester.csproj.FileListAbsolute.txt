@@ -7,10 +7,10 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\bin\Debug
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\bin\Debug\netcoreapp3.1\CalendarDaySelect.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\bin\Debug\netcoreapp3.1\CalendarDaySelect.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester_MarkupCompile.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.AssemblyInfo.cs

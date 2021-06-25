@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AiChat\AiChat.csproj" />
+    <ProjectReference Include="..\CalendarDaySelect\CalendarDaySelect.csproj" />
     <ProjectReference Include="..\Controls\Charting\Charting.csproj" />
     <ProjectReference Include="..\Controls\FilterDataGrid\FilterDataGrid.csproj" />
     <ProjectReference Include="..\Controls\HexGrid\HexGrid.csproj" />

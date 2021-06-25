@@ -132,6 +132,11 @@ namespace Slats
             services.AddTransient<ScheduleStaffVM>();                       services.AddTransient<ScheduleStaffPage>();
             services.AddTransient<ScheduleWeekVM>();                        services.AddTransient<ScheduleWeekPage>();
             services.AddTransient<SettingsViewModel>();                     services.AddTransient<SettingsPage>();
+            services.AddTransient<AboutVM>();                               services.AddTransient<About>();
+            services.AddTransient<NotificationSettingsVM>();                services.AddTransient<NotificationSettings>();
+            services.AddTransient<ServiceSettingsVM>();                     services.AddTransient<ServiceSettings>();
+            services.AddTransient<SignInConnectVM>();                       services.AddTransient<SignInConnect>();
+            services.AddTransient<SystemSettingsVM>();                      services.AddTransient<SystemSettings>();
             services.AddTransient<StaffDetailVM>();	                        services.AddTransient<StaffDetailPage>();
             services.AddTransient<StaffListAdminVM>();	                    services.AddTransient<StaffListAdminPage>();
             services.AddTransient<StaffListStaffVM>();	                    services.AddTransient<StaffListStaffPage>();

@@ -52,6 +52,21 @@
     <Compile Update="Views\Compliance\VistaMenuTemplatesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Settings\About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\NotificationSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\ServiceSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\SignInConnect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\SystemSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\CPRs\CprPoolsPage.xaml">
@@ -100,6 +115,21 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Compliance\VistaMenuTemplatesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\NotificationSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\ServiceSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\SignInConnect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\SystemSettings.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

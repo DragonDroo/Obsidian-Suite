@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MonthCalendarSelect/1.0.0": {
+        "dependencies": {
+          "CalendarDaySelect": "1.0.0"
+        },
+        "runtime": {
+          "MonthCalendarSelect.dll": {}
+        }
+      },
+      "CalendarDaySelect/1.0.0": {
+        "runtime": {
+          "CalendarDaySelect.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MonthCalendarSelect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalendarDaySelect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
