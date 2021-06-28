@@ -4,9 +4,56 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CalendarDaySelect"
+             d:DataContext="{d:DesignInstance Type=local:MonthSelect}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-        <Grid x:Name="MonthGrid">
+    <Border BorderBrush="AliceBlue"
+            BorderThickness="3">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="MonthText"
+                   Text="Month"
+                   TextAlignment="Center"
+                   Padding="0,0,0,0"
+                   Grid.Row="0"/>
+        <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+            <TextBlock Text="Sun"
+                       TextAlignment="Center"
+                       Foreground="Black"
+                       Grid.Column="0" />
+            <TextBlock Text="Mon"
+                       TextAlignment="Center"
+                       Grid.Column="1" />
+            <TextBlock Text="Tue"
+                       TextAlignment="Center"
+                       Grid.Column="2" />
+            <TextBlock Text="Wed"
+                       TextAlignment="Center"
+                       Grid.Column="3" />
+            <TextBlock Text="Thu"
+                       TextAlignment="Center"
+                       Grid.Column="4" />
+            <TextBlock Text="Fri"
+                       TextAlignment="Center"
+                       Grid.Column="5" />
+            <TextBlock Text="Sat"
+                       TextAlignment="Center"
+                       Grid.Column="6" />
+        </Grid>
+        <Grid x:Name="MonthGrid" Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="1*" />
@@ -16,42 +63,18 @@
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
+            
             <Grid.RowDefinitions>
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
             </Grid.RowDefinitions>
-            <TextBlock Text="Sunday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="0" />
-            <TextBlock Text="Monday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="1" />
-            <TextBlock Text="Tuesday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="2" />
-            <TextBlock Text="Wednesday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="3" />
-            <TextBlock Text="Thursday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="4" />
-            <TextBlock Text="Friday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="5" />
-            <TextBlock Text="Saturday"
-                       TextAlignment="Center"
-                       Grid.Row="0"
-                       Grid.Column="6" />
+            
+            
         </Grid>
+         </Grid>
+    </Border>
 </UserControl>

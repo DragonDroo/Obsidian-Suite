@@ -152,6 +152,8 @@ namespace Slats
             // Configuration
             services.Configure<AppConfig>(context.Configuration.GetSection(nameof(AppConfig)));
 
+            Slats.DAL.Configure.ConfigureServices(services, "TestDb.pmt");
+
         }
 
         private async void OnExit(object sender, ExitEventArgs e)

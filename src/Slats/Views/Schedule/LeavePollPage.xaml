@@ -17,14 +17,65 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="5*" />
                 <RowDefinition Height="5*" />
-                <RowDefinition Height="1*" />
+                <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="9*" />
                 <ColumnDefinition Width="9*" />
             </Grid.ColumnDefinitions>
-            <calendardayselect:MonthSelect Grid.Column="1"/>
-
+            <calendardayselect:MonthSelect x:Name="Month1"
+                                           Grid.Column="1"
+                                           Grid.Row="0"
+                                           Month="1" />
+            <calendardayselect:MonthSelect x:Name="Month2"
+                                           Grid.Row="0"
+                                           Month="2"
+                                           Grid.Column="2" />
+            <calendardayselect:MonthSelect x:Name="Month3" 
+                                           Grid.Column="3"
+                                           Grid.Row="0"
+                                           Month="3"/>
+                <calendardayselect:MonthSelect x:Name="Month4"
+                                               Grid.Column="4"
+                                               Grid.Row="0"
+                                               Month="4" />
+                <calendardayselect:MonthSelect x:Name="Month5"
+                                               Grid.Column="1"
+                                               Grid.Row="1"
+                                               Month="5" />
+                <calendardayselect:MonthSelect x:Name="Month6"
+                                               Grid.Column="2"
+                                               Grid.Row="1"
+                                               Month="6" />
+                <calendardayselect:MonthSelect x:Name="Month7"
+                                               Grid.Column="3"
+                                               Grid.Row="1"
+                                               Month="7" />
+                <calendardayselect:MonthSelect x:Name="Month8"
+                                               Grid.Column="4"
+                                               Grid.Row="1"
+                                               Month="8" />
+                <calendardayselect:MonthSelect x:Name="Month9"
+                                               Grid.Row="2"
+                                               Grid.Column="1"
+                                               Month="9" />
+                <calendardayselect:MonthSelect x:Name="Month10"
+                                           Grid.Row="2"
+                                           Grid.Column="2"
+                                           Month="10" />
+                <calendardayselect:MonthSelect x:Name="Month11"
+                                           Grid.Row="2"
+                                           Grid.Column="3"
+                                           Month="11" />
+                <calendardayselect:MonthSelect x:Name="Month12"
+                                           Grid.Row="2"
+                                           Grid.Column="4"
+                                           Month="12" />        
+               
+                <Button Content="Something" Click="Button_Click"/>
         </Grid>
     </Border>
 </Page>

@@ -45,7 +45,9 @@
             <Border Background="AliceBlue" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
                 <Grid >
                     <Grid.RowDefinitions>
-                        <RowDefinition></RowDefinition>
+                        <RowDefinition>
+                            
+                        </RowDefinition>
                     </Grid.RowDefinitions>
                     <DataGrid Background="Transparent"
                               AutoGenerateColumns="False"
@@ -74,27 +76,54 @@
                 </Grid>
             </Border>
             
-            <Border Background="Blue" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+            <Border Background="Blue" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="25" />
-                        <RowDefinition Height="*" />
+                        <RowDefinition Height="1*" />
                     </Grid.RowDefinitions>
-                    <ListView ItemsSource="{Binding Questions}"
+                    <ListView ItemsSource="{Binding Path=Questions}"
                               SelectionMode="Single"
+                              HorizontalAlignment="Stretch"
                               Grid.Row="1">
-                        <ListView.View>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="25" />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="50" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="25" />
+                                        <RowDefinition Height="25" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="{Binding Path=Id}"
+                                               Width="{Binding ElementName=*ParentElement*, Path=ActualWidth}"
+                                               Height="Auto"
+                                               TextAlignment="Right"
+                                               Padding="0,0,4,0"
+                                             Grid.RowSpan="2" />
+                                    <TextBox Text="{Binding Path=Question}"
+                                             AcceptsReturn="True"
+                                             TextWrapping="Wrap"
+                                             Grid.Row="0"
+                                             HorizontalAlignment="Stretch"
+                                             Grid.Column="1" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <!--<ListView.View>
                             <GridView AllowsColumnReorder="True">
                                 <GridViewColumn DisplayMemberBinding="{Binding DisplayOrder}"
                                                 Header="Order"
                                                 Width="50" />
-                                <GridViewColumn DisplayMemberBinding="{Binding Question}"
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Question}"
                                                 Header="Question"
                                                 Width="800" />
                                 
-                            </GridView>          
-                           
-                        </ListView.View>
+                            </GridView>                            
+                        </ListView.View>-->
                     </ListView> 
                 </Grid>
             </Border>

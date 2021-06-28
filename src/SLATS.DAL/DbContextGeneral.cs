@@ -224,7 +224,7 @@ namespace Slats.DAL
             DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite(
-                "Data Source=products19.pmt");
+                "Data Source=products20.pmt");
             optionsBuilder.UseLazyLoadingProxies();
             base.OnConfiguring(optionsBuilder);
         }

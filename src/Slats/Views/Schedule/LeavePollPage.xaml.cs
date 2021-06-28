@@ -51,7 +51,22 @@ namespace Slats.Views
             var index = e.Row.GetIndex() + 1;
             e.Row.Header = $"{index}";
         }
-#endregion Private Methods
+        #endregion Private Methods
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Month1.Month = 1;
+            Month2.Month = 2;
+            Month3.Month = 3;
+            Month4.Month = 4;
+            Month5.Month = 5;
+            Month6.Month = 6;
+            Month7.Month = 7;
+            Month8.Month = 8;
+            Month9.Month = 9;
+            Month10.Month = 10;
+            Month11.Month = 11;
+            Month12.Month = 12;
+        }
     }
 }

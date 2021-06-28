@@ -12,7 +12,7 @@ namespace Slats.ViewModels
 {
     public partial class CprBuilderVM : Observable, INavigationAware, INotifyUpdate
     {
-        public ObservableCollection<CprQuestion> Questions
+        public ObservableCollection<CprQuestion> Questions 
         {
             get { return questions; }
             set { questions = value; }
@@ -46,12 +46,13 @@ namespace Slats.ViewModels
 
         private void LoadQuestions()
         {
-            CprQuestion qu = new CprQuestion();
-            qu.Question = "Who is the lone ranger"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
-            qu.Question = "Who is the Cookie Monster"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
-            qu.Question = "Who is the Shirlie Temple"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
-            qu.Question = "Where is Waldo"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
-            qu.Question = "Who is the Shirlie Temple"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
+            CprQuestion qu;
+            
+            qu = new CprQuestion(); qu.Id = 1; qu.Question = "Who is the lone ranger"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
+            qu = new CprQuestion(); qu.Id = 2;qu.Question = "Who is the Cookie Monster"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
+            qu = new CprQuestion(); qu.Id = 3;qu.Question = "Who is the Shirlie Temple"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
+            qu = new CprQuestion(); qu.Id = 4;qu.Question = "Where is Waldo"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
+            qu = new CprQuestion(); qu.Id = 5; qu.Question = "Who is the Shirlie Temple"; qu.reportID = "Bam!"; qu.Type = QuestionType.OpenQuestion; Questions.Add(qu);
         }
 
         public void OnNavigatedFrom()
