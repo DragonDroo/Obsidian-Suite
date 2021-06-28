@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Charting;
 using Slats.Converters;
 using Slats.Properties;
 using Slats.ViewModels;

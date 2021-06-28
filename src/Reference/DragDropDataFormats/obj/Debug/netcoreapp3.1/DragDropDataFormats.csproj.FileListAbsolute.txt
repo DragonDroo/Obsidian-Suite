@@ -66,3 +66,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropDataFormats\obj\Debug\netcoreapp3.1\DragDropDataFormats.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropDataFormats\obj\Debug\netcoreapp3.1\DragDropDataFormats.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropDataFormats\obj\Debug\netcoreapp3.1\DragDropDataFormats.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropDataFormats\obj\Debug\netcoreapp3.1\DragDropDataFormats.csprojAssemblyReference.cache

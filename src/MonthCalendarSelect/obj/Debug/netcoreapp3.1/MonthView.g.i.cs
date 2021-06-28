@@ -53,7 +53,7 @@ namespace MonthCalendarSelect {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MonthCalendarSelect;V1.0.0.0;component/monthview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MonthCalendarSelect;component/monthview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MonthView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

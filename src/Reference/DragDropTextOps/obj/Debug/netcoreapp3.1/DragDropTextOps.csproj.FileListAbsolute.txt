@@ -43,3 +43,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropTextOps\obj\Debug\netcoreapp3.1\DragDropTextOps.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropTextOps\obj\Debug\netcoreapp3.1\DragDropTextOps.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropTextOps\obj\Debug\netcoreapp3.1\DragDropTextOps.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropTextOps\obj\Debug\netcoreapp3.1\DragDropTextOps.csprojAssemblyReference.cache

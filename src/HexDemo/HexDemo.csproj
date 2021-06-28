@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HexMonochrome.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HexGrid\HexGrid.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="HexMonochrome.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SamplesWindow.xaml.cs">
+      <DependentUpon>SamplesWindow.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="SamplesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

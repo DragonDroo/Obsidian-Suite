@@ -2396,28 +2396,6 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Charting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Charting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Charting.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
-      "FilterDataGrid/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/FilterDataGrid.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FilterDataGrid.dll": {}
-        }
-      },
       "FlagControl/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2426,19 +2404,6 @@
         },
         "runtime": {
           "bin/placeholder/FlagControl.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
-      "HexGrid/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/HexGrid.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HexGrid.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -7925,25 +7890,10 @@
       "path": "../CalendarDaySelect/CalendarDaySelect.csproj",
       "msbuildProject": "../CalendarDaySelect/CalendarDaySelect.csproj"
     },
-    "Charting/1.0.0": {
-      "type": "project",
-      "path": "../Controls/Charting/Charting.csproj",
-      "msbuildProject": "../Controls/Charting/Charting.csproj"
-    },
-    "FilterDataGrid/1.0.0": {
-      "type": "project",
-      "path": "../Controls/FilterDataGrid/FilterDataGrid.csproj",
-      "msbuildProject": "../Controls/FilterDataGrid/FilterDataGrid.csproj"
-    },
     "FlagControl/1.0.0": {
       "type": "project",
       "path": "../FlagControl/FlagControl.csproj",
       "msbuildProject": "../FlagControl/FlagControl.csproj"
-    },
-    "HexGrid/1.0.0": {
-      "type": "project",
-      "path": "../Controls/HexGrid/HexGrid.csproj",
-      "msbuildProject": "../Controls/HexGrid/HexGrid.csproj"
     },
     "RtfEditor/1.0.0": {
       "type": "project",
@@ -7975,11 +7925,8 @@
     ".NETCoreApp,Version=v3.1": [
       "AiChat >= 1.0.0",
       "CalendarDaySelect >= 1.0.0",
-      "Charting >= 1.0.0",
-      "FilterDataGrid >= 1.0.0",
       "FlagControl >= 1.0.0",
       "Fluent.Ribbon >= 8.0.3",
-      "HexGrid >= 1.0.0",
       "MahApps.Metro >= 2.4.6",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.Toolkit.Wpf.UI.Controls.WebView >= 6.1.2",
@@ -8030,15 +7977,6 @@
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj"
-            },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\Charting\\Charting.csproj"
-            },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\FilterDataGrid\\FilterDataGrid.csproj"
-            },
-            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\HexGrid\\HexGrid.csproj": {
-              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\Controls\\HexGrid\\HexGrid.csproj"
             },
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\FlagControl\\FlagControl.csproj"

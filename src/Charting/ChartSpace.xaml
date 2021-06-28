@@ -1,0 +1,125 @@
+﻿<UserControl x:Class="Charting.ChartSpace"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:control="clr-namespace:Charting"
+             xmlns:local="clr-namespace:Charting" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border BorderBrush="#FFEDB5BF"
+            BorderThickness="2">
+
+
+        <Grid Background="#FF86B3D1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="245*" />
+                <ColumnDefinition Width="151*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="46" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="MeNotBob"
+                        Orientation="Horizontal"
+                        Background="Transparent"
+                        Grid.ColumnSpan="2">
+                <Button Width="40"
+                        x:Name="N1"
+                        Click="N1_Click"
+                        Height="40"
+                        Margin="2,2,2,2"
+                        FontFamily="Times New Roman"
+                        FontSize="24"
+                        FontWeight="Heavy"
+                        Content="←"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        x:Name="N2"
+                        FontFamily="Times New Roman"
+                        FontSize="24"
+                        FontWeight="Heavy"
+                        Content="→"
+                        Click="N2_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        x:Name="N3"
+                        FontFamily="Times New Roman"
+                        FontSize="24"
+                        FontWeight="Heavy"
+                        Content="↑"
+                        Click="N3_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        x:Name="N4"
+                        FontFamily="Times New Roman"
+                        FontSize="24"
+                        FontWeight="Heavy"
+                        Content="↓"
+                        Click="N4_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        x:Name="NewControl"
+                        Click="NewControl_Click"
+                        Content="+"
+                        FontFamily="Times New Roman"
+                        FontSize="24"
+                        FontWeight="Heavy"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        x:Name="NewConnector"
+                        Content="New Con"
+                        Click="NewConnector_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        Content="Draw"
+                        x:Name="DrawConnector"
+                        Click="DrawConnector_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <Button Width="40"
+                        Height="40"
+                        Content="Order"
+                        x:Name="OrderChildren"
+                        Click="OrderChildren_Click"
+                        Margin="2,2,2,2"
+                        Background="#FF4D6D9A" />
+                <TextBlock x:Name="Temporary"
+                           Background="#FF4D6D9A"
+                           Margin="20,3"
+                           Width="320" />
+                <Slider Name="slider1"
+                        Margin="0,10,0,0"
+                        Foreground="#FF4D6D9A"
+                        DockPanel.Dock="Top"
+                        Maximum="1.5"
+                        Minimum="1"
+                        PreviewMouseDown="slider1_PreviewMouseDown"
+                        TickFrequency="0.1"
+                        TickPlacement="TopLeft"
+                        ValueChanged="slider1_ValueChanged"
+                        Value="{Binding ElementName=Mebob,
+                                Path=LayoutTransform.ScaleX,
+                                Mode=OneWay}" />
+            </StackPanel>
+            <Canvas x:Name="MeBob"
+                    Grid.Row="1"
+                    Background="Transparent"
+                    Grid.ColumnSpan="2">
+
+            </Canvas>
+        </Grid>
+
+    </Border>
+</UserControl>

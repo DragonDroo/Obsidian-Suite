@@ -1,0 +1,112 @@
+﻿<UserControl x:Class="Charting.OrgNodeT"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Charting"
+             mc:Ignorable="d"
+             Height="38.479"
+             Width="150.333"> 
+    <Grid>
+        <Border CornerRadius="10,10,10,10"
+                Background="#FF5F6366"
+                x:Name="NodeBorder"
+                BorderBrush="#FFEDB5BF"
+                BorderThickness="2">
+            <StackPanel>
+                <TextBox HorizontalAlignment="Right"
+                         x:Name="tbHeader"
+                         Height="20"
+                         TextWrapping="Wrap"
+                         Text=""
+                         Background="Transparent"
+                         BorderBrush="Transparent"
+                         FontWeight="Bold"
+                         Foreground="White"
+                         TextAlignment="Center"
+                         VerticalAlignment="Top"
+                         MouseDown="TextBox_MouseDown"
+                         Width="148" />
+                <StackPanel Orientation="Horizontal">
+                    <TextBox HorizontalAlignment="Right"
+                             Height="20"
+                             x:Name="Positon"
+                             TextWrapping="Wrap"
+                             Text=""
+                             Margin="5,-2"
+                             Background="Transparent"
+                             BorderBrush="Transparent"
+                             FontWeight="Bold"
+                             Foreground="White"
+                             TextAlignment="Left"
+                             VerticalAlignment="Top"
+                             Width="90" />
+                    <TextBox HorizontalAlignment="Right"
+                             Height="20"
+                             x:Name="Grade"
+                             TextWrapping="Wrap"
+                             Foreground="White"
+                             Text=""
+                             Background="Transparent"
+                             BorderBrush="Transparent"
+                             FontWeight="Bold"
+                             Margin="0,-2"
+                             TextAlignment="Right"
+                             VerticalAlignment="Top"
+                             Width="40" />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <Expander Margin="0,0,0,-27">
+            <Border BorderThickness="2"
+                    BorderBrush="#FFEDB5BF">
+                <Canvas Width="148"
+                        Background="#FF99CED3">
+                    <Grid Background="Transparent"
+                          Margin="2,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="40" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Label Content="Position ID"
+                               HorizontalAlignment="Stretch"
+                               VerticalAlignment="Stretch"
+                               Foreground="Black"
+                               Background="Transparent"
+                               FontSize="10"
+                               FontFamily="Times New Roman"
+                               Padding="0,0,0,0"
+                               Grid.Row="0"
+                               Grid.Column="0" />
+                        <Label Grid.Row="1"
+                               Grid.Column="0"
+                               Content="Label"
+                               FontFamily="Times New Roman"
+                               FontSize="10"
+                               Background="Transparent"
+                               HorizontalAlignment="Stretch"
+                               VerticalAlignment="Stretch"
+                               Padding="0,0,0,0" />
+                        <Button Grid.Column="2"
+                                Grid.Row="0"
+                                Height="12"
+                                Margin="0,-8"
+                                FontSize="8"
+                                Content="Vertical Tree"
+                                Grid.ColumnSpan="2"
+                                x:Name="Layout"
+                                Click="Layout_Click" />
+                    </Grid>
+                </Canvas>
+            </Border>
+        </Expander>
+    </Grid>
+</UserControl>

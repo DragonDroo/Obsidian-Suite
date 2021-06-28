@@ -61,7 +61,7 @@ namespace MonthCalendarSelect {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MonthCalendarSelect;V1.0.0.0;component/daybuttoncompact.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MonthCalendarSelect;component/daybuttoncompact.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DayButtonCompact.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -67,3 +67,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Simple
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SimpleBinding\obj\Debug\netcoreapp3.1\SimpleBinding.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SimpleBinding\obj\Debug\netcoreapp3.1\SimpleBinding.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SimpleBinding\obj\Debug\netcoreapp3.1\SimpleBinding.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SimpleBinding\obj\Debug\netcoreapp3.1\SimpleBinding.csprojAssemblyReference.cache

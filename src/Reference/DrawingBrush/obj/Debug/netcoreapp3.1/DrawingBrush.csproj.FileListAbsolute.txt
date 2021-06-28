@@ -111,3 +111,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Drawin
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DrawingBrush\obj\Debug\netcoreapp3.1\DrawingBrush.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DrawingBrush\obj\Debug\netcoreapp3.1\DrawingBrush.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DrawingBrush\obj\Debug\netcoreapp3.1\DrawingBrush.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DrawingBrush\obj\Debug\netcoreapp3.1\DrawingBrush.csprojAssemblyReference.cache

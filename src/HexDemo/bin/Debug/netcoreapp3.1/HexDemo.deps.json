@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HexDemo/1.0.0": {
+        "dependencies": {
+          "HexGrid": "1.0.0"
+        },
+        "runtime": {
+          "HexDemo.dll": {}
+        }
+      },
+      "HexGrid/1.0.0": {
+        "runtime": {
+          "HexGrid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HexDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HexGrid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
