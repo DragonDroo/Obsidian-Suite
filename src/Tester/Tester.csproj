@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalendarDaySelect\CalendarDaySelect.csproj" />
+    <ProjectReference Include="..\RtfEditor\RtfEditor.csproj" />
   </ItemGroup>
 
 </Project>

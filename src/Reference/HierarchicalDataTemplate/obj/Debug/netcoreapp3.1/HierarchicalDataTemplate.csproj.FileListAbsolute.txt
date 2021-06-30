@@ -68,3 +68,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Hierar
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.csprojAssemblyReference.cache

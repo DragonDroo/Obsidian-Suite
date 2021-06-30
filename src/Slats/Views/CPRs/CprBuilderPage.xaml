@@ -82,7 +82,9 @@
                         <RowDefinition Height="25" />
                         <RowDefinition Height="1*" />
                     </Grid.RowDefinitions>
+                    
                     <ListView ItemsSource="{Binding Path=Questions}"
+                              x:Name="argh"
                               SelectionMode="Single"
                               HorizontalAlignment="Stretch"
                               Grid.Row="1">
@@ -91,25 +93,35 @@
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="25" />
-                                        <ColumnDefinition />
+                                        <ColumnDefinition x:Name="testy"/>
                                         <ColumnDefinition Width="50" />
                                     </Grid.ColumnDefinitions>
                                     <Grid.RowDefinitions>
-                                        <RowDefinition Height="25" />
+                                        <RowDefinition  />
                                         <RowDefinition Height="25" />
                                     </Grid.RowDefinitions>
                                     <TextBlock Text="{Binding Path=Id}"
-                                               Width="{Binding ElementName=*ParentElement*, Path=ActualWidth}"
                                                Height="Auto"
                                                TextAlignment="Right"
                                                Padding="0,0,4,0"
                                              Grid.RowSpan="2" />
-                                    <TextBox Text="{Binding Path=Question}"
+                                    <TextBox Text="{Binding Path=Question}"                                                   x:Name="Pine"
                                              AcceptsReturn="True"
                                              TextWrapping="Wrap"
                                              Grid.Row="0"
+                                             Width="800"
                                              HorizontalAlignment="Stretch"
                                              Grid.Column="1" />
+                                    <RichTextBox x:Name="Bananana"
+                                                 Grid.Row="2"
+                                                 Grid.Column="0"
+                                                 Grid.ColumnSpan="3"
+                                                 Background="Transparent"
+                                                 VerticalScrollBarVisibility="Auto"
+                                                 BorderBrush="Black"
+                                                 BorderThickness="0"
+                                                 SelectionChanged="RtfBox_SelectionChanged" />
+                                    <!--Width="{Binding ElementName=testy, Path=Width}"-->
                                 </Grid>
                             </DataTemplate>
                         </ListView.ItemTemplate>

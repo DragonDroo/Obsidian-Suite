@@ -62,3 +62,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.csprojAssemblyReference.cache

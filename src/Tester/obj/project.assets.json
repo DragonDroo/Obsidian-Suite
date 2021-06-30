@@ -14,6 +14,19 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "RtfEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RtfEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RtfEditor.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -22,11 +35,17 @@
       "type": "project",
       "path": "../CalendarDaySelect/CalendarDaySelect.csproj",
       "msbuildProject": "../CalendarDaySelect/CalendarDaySelect.csproj"
+    },
+    "RtfEditor/1.0.0": {
+      "type": "project",
+      "path": "../RtfEditor/RtfEditor.csproj",
+      "msbuildProject": "../RtfEditor/RtfEditor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CalendarDaySelect >= 1.0.0"
+      "CalendarDaySelect >= 1.0.0",
+      "RtfEditor >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -63,6 +82,9 @@
           "projectReferences": {
             "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj": {
               "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\CalendarDaySelect\\CalendarDaySelect.csproj"
+            },
+            "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj": {
+              "projectPath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\RtfEditor\\RtfEditor.csproj"
             }
           }
         }

@@ -4,10 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:Day="clr-namespace:CalendarDaySelect;assembly=CalendarDaySelect"
+        xmlns:rc="clr-namespace:RtfEditor;assembly=RtfEditor"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl>
+            <TabItem Header="Rtf Compact">
+                <rc:RtfCompact>
+                    
+                </rc:RtfCompact>
+            </TabItem>
             <TabItem Header="Month View">
         <Grid>
             <Grid.ColumnDefinitions>

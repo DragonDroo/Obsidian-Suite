@@ -34,7 +34,10 @@
   <ItemGroup>
     <ProjectReference Include="..\AiChat\AiChat.csproj" />
     <ProjectReference Include="..\CalendarDaySelect\CalendarDaySelect.csproj" />
+    <ProjectReference Include="..\Charting\Charting.csproj" />
+    <ProjectReference Include="..\FilterDataGrid\FilterDataGrid.csproj" />
     <ProjectReference Include="..\FlagControl\FlagControl.csproj" />
+    <ProjectReference Include="..\HexGrid\HexGrid.csproj" />
     <ProjectReference Include="..\RtfEditor\RtfEditor.csproj" />
     <ProjectReference Include="..\Slats.Core\Slats.Core.csproj" />
     <ProjectReference Include="..\SLATS.DAL\Slats.DAL.csproj" />

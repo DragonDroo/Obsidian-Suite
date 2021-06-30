@@ -19,3 +19,5 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\obj\Debug\netcoreapp3.1\Tester.genruntimeconfig.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\bin\Debug\netcoreapp3.1\RtfEditor.dll
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Tester\bin\Debug\netcoreapp3.1\RtfEditor.pdb

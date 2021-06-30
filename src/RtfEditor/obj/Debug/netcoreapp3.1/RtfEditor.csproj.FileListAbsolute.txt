@@ -25,3 +25,5 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\De
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\Debug\netcoreapp3.1\RtfEditor.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\Debug\netcoreapp3.1\RtfEditor.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\Debug\netcoreapp3.1\RtfEditor.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\Debug\netcoreapp3.1\RtfCompact.g.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\RtfEditor\obj\Debug\netcoreapp3.1\RtfCompact.baml

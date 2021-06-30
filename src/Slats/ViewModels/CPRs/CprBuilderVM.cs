@@ -41,7 +41,7 @@ namespace Slats.ViewModels
             LoadQuestions();
 
             MessageBox.Show(Questions.Count.ToString());
-
+            
         }
 
         private void LoadQuestions()
