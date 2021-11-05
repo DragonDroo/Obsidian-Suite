@@ -14,7 +14,8 @@
           "Microsoft.Identity.Client": "4.31.0",
           "Newtonsoft.Json": "13.0.1",
           "Slats.DAL": "1.0.0",
-          "Slats.Models": "1.0.0"
+          "Slats.Models": "1.0.0",
+          "SpreadsheetHelper": "1.0.5560.37691"
         },
         "runtime": {
           "Slats.Core.dll": {}
@@ -376,6 +377,29 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SpreadsheetHelper/1.0.5560.37691": {
+        "dependencies": {
+          "SpreadsheetLight": "3.4.4"
+        },
+        "runtime": {
+          "lib/net451/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.0.5022.0",
+            "fileVersion": "2.0.5022.0"
+          },
+          "lib/net451/SpreadsheetHelper.dll": {
+            "assemblyVersion": "1.0.5560.37691",
+            "fileVersion": "1.0.5560.37691"
+          }
+        }
+      },
+      "SpreadsheetLight/3.4.4": {
+        "runtime": {
+          "lib/SpreadsheetLight.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.4",
@@ -1498,6 +1522,20 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SpreadsheetHelper/1.0.5560.37691": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nfHuziKgPzgBg3eeHswgF0WeeBQUhGvHNA7rfbOEyLfyePqdaioagTsLM8y3/LAKZLvdoHwbI+Jryjot5TJiVA==",
+      "path": "spreadsheethelper/1.0.5560.37691",
+      "hashPath": "spreadsheethelper.1.0.5560.37691.nupkg.sha512"
+    },
+    "SpreadsheetLight/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9/T+ABR2TUjZbvztcy0Lds/vEJv0+axUeFmRXqTzwNCwRQMYjWWaOv1WdXhpn1HPRhVqINKupqFX7qbYTiy/0A==",
+      "path": "spreadsheetlight/3.4.4",
+      "hashPath": "spreadsheetlight.3.4.4.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",

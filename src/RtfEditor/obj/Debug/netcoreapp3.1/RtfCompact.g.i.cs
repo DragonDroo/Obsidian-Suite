@@ -125,7 +125,7 @@ namespace RtfEditor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RtfEditor;V1.0.0.0;component/rtfcompact.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RtfEditor;component/rtfcompact.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RtfCompact.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

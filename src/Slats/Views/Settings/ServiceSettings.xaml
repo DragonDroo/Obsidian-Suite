@@ -9,6 +9,75 @@
       Title="ServiceSettings">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Database Type for this Service:"
+                   Grid.Row="1"
+                   Grid.Column="0" />
+        <ComboBox Text="Database Type for this Service:" Grid.Row="1" Grid.Column="1">
+                <ComboBoxItem Content="SQL Server" />
+                <ComboBoxItem Content="SQLite" />
+        </ComboBox>
+        <TextBlock Text="Full Path for this Service:"
+                   Grid.Row="2"
+                   Grid.Column="0" />
+        <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 Text="Http:\\" />
+        <TextBlock Text="Full Path for Archival:"
+                   Grid.Row="3"
+                   Grid.Column="0" />
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 Text="C:\" />        
+        <TextBlock Text="Full Path for Backup:"
+                   Grid.Row="4"
+                   Grid.Column="0" />
+        <TextBox Grid.Row="4"
+                 Grid.Column="1"
+                 Text="D:\" />
+       
+        <Button Content="Backup Database"
+                ToolTip="Creates a complete backup of the Database."
+                Grid.Column="0"
+                Grid.Row="6" />
+        <Button Content="Restore from Backup"
+                ToolTip="Restore Data and structure from a backup"
+                Grid.Column="1"                
+                Grid.Row="6" />
+        <Button Content="Inspect"
+                Grid.Column="0"
+                Grid.Row="7" />
+        <Button Content="Archive"
+                ToolTip="Move outdated and unneeded information from the active database to an archival database.\\n All files and related materials covered in the archival rules will also be moved to archive."                
+                Grid.Column="1"
+                Grid.Row="7" />
+        <Button Content="Connect to Archive"
+                ToolTip="Connect to Archived data for lookup of archived information. No edits will be permitted."
+                Grid.Column="1"
+                Grid.Row="8" />
+        <TextBlock Text="Archival Rule Set:" Grid.Column="0" Grid.Row="10"/>
+        <ComboBox Text="Database Type for this Service:"
+                  Grid.Row="10"
+                  Grid.Column="1">
+            <ComboBoxItem Content="2 Year Obsolesence, Archive only when there is no active reference." />
+            <ComboBoxItem Content="Immediate Partial, when flagged to be removed the flagged items will all be archived. Referenced fields will be retained for data integrity." />
+        </ComboBox>
     </Grid>
 </Page>

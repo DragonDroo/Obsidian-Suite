@@ -93,9 +93,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
-
-
     </Page.Resources>
     <Border BorderBrush="Coral"
             BorderThickness="5">

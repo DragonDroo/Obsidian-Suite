@@ -13,7 +13,7 @@ namespace Slats.ViewModels
         public string Name { get; set; }
         public int Age { get; set; }
         public string Email { get; set; }
-        public DepartmentX   dept { get; set; }
+        public DepartmentX dept { get; set; }
         public Alternate alt { get; set; }
     }
     public enum Alternate

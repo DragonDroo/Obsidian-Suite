@@ -70,6 +70,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "SpreadsheetHelper": {
+              "target": "Package",
+              "version": "[1.0.5560.37691, )"
             }
           },
           "imports": [

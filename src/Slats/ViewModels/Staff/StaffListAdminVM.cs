@@ -35,7 +35,7 @@ namespace Slats.ViewModels
         {
             //   _sampleDataService = sampleDataService;
             //_sampleDataService = Employes;
-        }
+        } 
 
         public ICommand RefreshCommand => new DelegateCommand(RefreshData);
 

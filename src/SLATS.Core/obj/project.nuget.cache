@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i1MDW13myikWTpDmLdYHBzdfQ6tF8NmfllCXjh4viLeRCtKbvWRRQb8ZO04pp4UdsRePZFqIAJ+8nBjpyk1VLw==",
+  "dgSpecHash": "brm7UO5LWrbeL20pW8jS0o+CjfHN+g8MYFp5IEPkHqJ3VeIfH7sIKTITsrIxgKFyKtVc0dl0Pzr1pAKE3ujRbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\VHASBYMeachD\\source\\repos\\Service-Line-Admin-Tools\\src\\SLATS.Core\\Slats.Core.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,8 @@
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\spreadsheethelper\\1.0.5560.37691\\spreadsheethelper.1.0.5560.37691.nupkg.sha512",
+    "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\spreadsheetlight\\3.4.4\\spreadsheetlight.3.4.4.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -118,5 +120,26 @@
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\VHASBYMeachD\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SpreadsheetHelper 1.0.5560.37691' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SpreadsheetHelper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SpreadsheetLight 3.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SpreadsheetLight",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

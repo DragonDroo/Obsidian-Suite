@@ -538,6 +538,29 @@
           }
         }
       },
+      "SpreadsheetHelper/1.0.5560.37691": {
+        "type": "package",
+        "dependencies": {
+          "SpreadsheetLight": "3.4.4"
+        },
+        "compile": {
+          "lib/net451/DocumentFormat.OpenXml.dll": {},
+          "lib/net451/SpreadsheetHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net451/DocumentFormat.OpenXml.dll": {},
+          "lib/net451/SpreadsheetHelper.dll": {}
+        }
+      },
+      "SpreadsheetLight/3.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/SpreadsheetLight.dll": {}
+        },
+        "runtime": {
+          "lib/SpreadsheetLight.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "type": "package",
         "dependencies": {
@@ -2561,6 +2584,36 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "SpreadsheetHelper/1.0.5560.37691": {
+      "sha512": "nfHuziKgPzgBg3eeHswgF0WeeBQUhGvHNA7rfbOEyLfyePqdaioagTsLM8y3/LAKZLvdoHwbI+Jryjot5TJiVA==",
+      "type": "package",
+      "path": "spreadsheethelper/1.0.5560.37691",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/SpreadsheetHelper.dll",
+        "lib/net45/DocumentFormat.OpenXml.dll",
+        "lib/net45/SpreadsheetHelper.dll",
+        "lib/net451/DocumentFormat.OpenXml.dll",
+        "lib/net451/SpreadsheetHelper.dll",
+        "spreadsheethelper.1.0.5560.37691.nupkg.sha512",
+        "spreadsheethelper.nuspec"
+      ]
+    },
+    "SpreadsheetLight/3.4.4": {
+      "sha512": "9/T+ABR2TUjZbvztcy0Lds/vEJv0+axUeFmRXqTzwNCwRQMYjWWaOv1WdXhpn1HPRhVqINKupqFX7qbYTiy/0A==",
+      "type": "package",
+      "path": "spreadsheetlight/3.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SpreadsheetLight.dll",
+        "lib/SpreadsheetLight.xml",
+        "spreadsheetlight.3.4.4.nupkg.sha512",
+        "spreadsheetlight.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -6191,7 +6244,8 @@
       "Microsoft.Identity.Client >= 4.31.0",
       "Newtonsoft.Json >= 13.0.1",
       "Slats.DAL >= 1.0.0",
-      "Slats.Models >= 1.0.0"
+      "Slats.Models >= 1.0.0",
+      "SpreadsheetHelper >= 1.0.5560.37691"
     ]
   },
   "packageFolders": {
@@ -6264,6 +6318,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "SpreadsheetHelper": {
+            "target": "Package",
+            "version": "[1.0.5560.37691, )"
           }
         },
         "imports": [
@@ -6284,5 +6342,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SpreadsheetHelper 1.0.5560.37691' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SpreadsheetHelper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SpreadsheetLight 3.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SpreadsheetLight",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

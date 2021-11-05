@@ -15,67 +15,89 @@
             BorderThickness="5">
         <Grid>
             <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
                 <RowDefinition Height="5*" />
-                <RowDefinition Height="5*" />
-                <RowDefinition Height="5*" />
+                <!--<RowDefinition Height="5*" />-->
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20" />
                 <ColumnDefinition Width="9*" />
+                <!--<ColumnDefinition Width="9*" />
                 <ColumnDefinition Width="9*" />
-                <ColumnDefinition Width="9*" />
-                <ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="9*" />-->
             </Grid.ColumnDefinitions>
+            <Slider Grid.Row="0" Grid.Column="1" Minimum="100" Maximum="400" Value="{Binding Path=sldVal}">
+                
+            </Slider>
+            <WrapPanel x:Name="wrappingPanel" Grid.Row="1" Grid.Column="1">
             <calendardayselect:MonthSelect x:Name="Month1"
-                                           Grid.Column="1"
-                                           Grid.Row="0"
-                                           Month="1" />
+                                           Month="1"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
             <calendardayselect:MonthSelect x:Name="Month2"
-                                           Grid.Row="0"
-                                           Month="2"
-                                           Grid.Column="2" />
-            <calendardayselect:MonthSelect x:Name="Month3" 
-                                           Grid.Column="3"
-                                           Grid.Row="0"
-                                           Month="3"/>
+                                               Grid.Column="2"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+            <calendardayselect:MonthSelect x:Name="Month3"
+                                               Month="3"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month4"
                                                Grid.Column="4"
                                                Grid.Row="0"
-                                               Month="4" />
+                                               Month="4"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month5"
                                                Grid.Column="1"
                                                Grid.Row="1"
-                                               Month="5" />
+                                               Month="5"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month6"
                                                Grid.Column="2"
                                                Grid.Row="1"
-                                               Month="6" />
+                                               Month="6"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month7"
                                                Grid.Column="3"
                                                Grid.Row="1"
-                                               Month="7" />
+                                               Month="7"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month8"
                                                Grid.Column="4"
                                                Grid.Row="1"
-                                               Month="8" />
+                                               Month="8"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month9"
                                                Grid.Row="2"
                                                Grid.Column="1"
-                                               Month="9" />
+                                               Month="9"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month10"
                                            Grid.Row="2"
                                            Grid.Column="2"
-                                           Month="10" />
+                                               Month="10"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}"/>
                 <calendardayselect:MonthSelect x:Name="Month11"
                                            Grid.Row="2"
                                            Grid.Column="3"
-                                           Month="11" />
+                                               Month="11"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
                 <calendardayselect:MonthSelect x:Name="Month12"
                                            Grid.Row="2"
                                            Grid.Column="4"
-                                           Month="12" />        
-               
-                <Button Content="Something" Click="Button_Click"/>
+                                               Month="12"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+            </WrapPanel>
+            <Button Content="Something" Click="Button_Click"/>
         </Grid>
     </Border>
 </Page>

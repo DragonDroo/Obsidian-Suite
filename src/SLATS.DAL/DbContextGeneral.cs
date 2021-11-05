@@ -220,9 +220,10 @@ namespace Slats.DAL
         public DbSet<FlipPageNode> FlipPageNodes { get; set; }
         public DbSet<FlipPageNote> FlipPageNotes { get; set; }
         public DbSet<MedPrivilege> MedPrivileges { get; set; }
+
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
-        {
+        {          
             optionsBuilder.UseSqlite(
                 "Data Source=products20.pmt");
             optionsBuilder.UseLazyLoadingProxies();

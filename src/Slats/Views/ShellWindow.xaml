@@ -85,13 +85,20 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+
+            <Menu>
+                <MenuItem Header="asdf"/>
+                <Separator/>
+                <MenuItem Header="asdf"/>
+            </Menu>
             <!--
             Learn more about using Fluent.Ribbon Control at
             https://fluentribbon.github.io/
             -->
-            <Fluent:Ribbon x:Name="ribbonControl" Grid.Row="0">
+            <Fluent:Ribbon x:Name="ribbonControl" Grid.Row="1">
                 <!--Backstage-->
                 <Fluent:Ribbon.Menu>
                     <Fluent:Backstage UseHighestAvailableAdornerLayer="False">
@@ -1063,7 +1070,7 @@
 
 
             <controls:SplitView
-                Grid.Row="1"
+                Grid.Row="2"
                 x:Name="splitView"
                 PanePlacement="Right"
                 OpenPaneLength="400"

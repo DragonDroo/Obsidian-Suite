@@ -14,6 +14,7 @@
     <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
     <PackageReference Include="Microsoft.Identity.Client" Version="4.31.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SpreadsheetHelper" Version="1.0.5560.37691" />
   </ItemGroup>
 
   <ItemGroup>

@@ -133,7 +133,7 @@ namespace RtfEditor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RtfEditor;V1.0.0.0;component/rtfeditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RtfEditor;component/rtfeditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RtfEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

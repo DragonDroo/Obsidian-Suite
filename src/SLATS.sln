@@ -77,6 +77,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexDemo", "HexDemo\HexDemo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexGrid", "HexGrid\HexGrid.csproj", "{746F3E33-4826-4703-A97F-59429C9A698A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{0517C206-E9B5-459A-9AB6-39BF76296280}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\App.xaml = ..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\App.xaml
+		..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\App.xaml.cs = ..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\App.xaml.cs
+		..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\MainWindow.xaml = ..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\MainWindow.xaml
+		..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\MainWindow.xaml.cs = ..\..\..\Navigation-Drawer-Sidebar-Menu-in-WPF\Source\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

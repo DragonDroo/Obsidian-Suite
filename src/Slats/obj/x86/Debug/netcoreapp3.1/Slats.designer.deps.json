@@ -811,6 +811,29 @@
           }
         }
       },
+      "SpreadsheetHelper/1.0.5560.37691": {
+        "dependencies": {
+          "SpreadsheetLight": "3.4.4"
+        },
+        "runtime": {
+          "lib/net451/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.0.5022.0",
+            "fileVersion": "2.0.5022.0"
+          },
+          "lib/net451/SpreadsheetHelper.dll": {
+            "assemblyVersion": "1.0.5560.37691",
+            "fileVersion": "1.0.5560.37691"
+          }
+        }
+      },
+      "SpreadsheetLight/3.4.4": {
+        "runtime": {
+          "lib/SpreadsheetLight.dll": {
+            "assemblyVersion": "3.4.4.0",
+            "fileVersion": "3.4.4.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.4",
@@ -2525,6 +2548,20 @@
       "sha512": "sha512-WSdeDReL8eugMCw5BH/tFAZpgR+YsYMwm6kIvqg3J8LbfRjbbebmEzn63AbEveqyMOljBO68g6tCCv165wMkSg==",
       "path": "sharpziplib/1.3.2",
       "hashPath": "sharpziplib.1.3.2.nupkg.sha512"
+    },
+    "SpreadsheetHelper/1.0.5560.37691": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nfHuziKgPzgBg3eeHswgF0WeeBQUhGvHNA7rfbOEyLfyePqdaioagTsLM8y3/LAKZLvdoHwbI+Jryjot5TJiVA==",
+      "path": "spreadsheethelper/1.0.5560.37691",
+      "hashPath": "spreadsheethelper.1.0.5560.37691.nupkg.sha512"
+    },
+    "SpreadsheetLight/3.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9/T+ABR2TUjZbvztcy0Lds/vEJv0+axUeFmRXqTzwNCwRQMYjWWaOv1WdXhpn1HPRhVqINKupqFX7qbYTiy/0A==",
+      "path": "spreadsheetlight/3.4.4",
+      "hashPath": "spreadsheetlight.3.4.4.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",
