@@ -10,10 +10,8 @@
 //------------------------------------------------------------------------------
 
 using CalendarDaySelect;
-using Slats.Helpers;
 using Slats.ViewModels;
 using Slats.Views;
-using Slats.Views.Reviews;
 using System;
 using System.Diagnostics;
 using System.Windows;

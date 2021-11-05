@@ -128,7 +128,7 @@ namespace Slats.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/views/tools/flipnotes.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;component/views/tools/flipnotes.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Tools\FlipNotes.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

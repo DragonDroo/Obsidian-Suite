@@ -1,0 +1,20 @@
+﻿Slats
+
+
+winexe
+C#
+.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\obj\x86\Debug\netcoreapp3.1\
+Slats
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\App.xaml
+711871824696
+
+2141164729616
+351687960612
+QuestionsDictionary.xaml;Styles\Button.xaml;Styles\ListView.xaml;Styles\MetroWindow.xaml;Styles\TextBlock.xaml;Styles\Themes\HC.Dark.Blue.xaml;Styles\Themes\HC.Light.Blue.xaml;Styles\_FontSizes.xaml;Styles\_Thickness.xaml;Views\Comms\NotifyEmailTemplatesPage.xaml;Views\Compliance\MeetingAttendAdminPage.xaml;Views\Compliance\MeetingAttendancePage.xaml;Views\Compliance\MeetingAttendStaffPage.xaml;Views\Compliance\MeetingAttendSupervisorPage.xaml;Views\Compliance\TmsAdminPage.xaml;Views\Compliance\TmsStaffPage.xaml;Views\Compliance\VistaMenuItemsPage.xaml;Views\Compliance\VistaMenuTemplatesPage.xaml;Views\CPRs\CprAssignmentMakerPage.xaml;Views\CPRs\CprBuilderPage.xaml;Views\CPRs\CprFormPage.xaml;Views\CPRs\CprPoolsPage.xaml;Views\CPRs\CprReviewAdminPage.xaml;Views\CPRs\CprReviewStaffPage.xaml;Views\CPRs\CprReviewSupervisorPage.xaml;Views\CPRs\CprSummaryPage.xaml;Views\Example\ContentGridDetailPage.xaml;Views\Example\ContentGridPage.xaml;Views\Example\DataGridPage.xaml;Views\Example\MasterDetailPage.xaml;Views\Fee Basis\FeeBasisAdminPage.xaml;Views\Fee Basis\FeeBasisStaffPage.xaml;Views\Fee Basis\FeeBasisSupervPage.xaml;Views\MainPage.xaml;Views\NewEditPersonPage.xaml;Views\OrgChart.xaml;Views\Positions.xaml;Views\Privileges.xaml;Views\Productivity\ProductivityAdminPage.xaml;Views\Productivity\ProductivityCptPage.xaml;Views\Productivity\ProductivityDxPage.xaml;Views\Productivity\ProductivityPage.xaml;Views\ProgramInfoPage.xaml;Views\Reviews\ReviewBuilder.xaml;Views\Schedule\LeavePollPage.xaml;Views\Schedule\ScheduleDayPage.xaml;Views\Schedule\SchedulePpPage.xaml;Views\Schedule\ScheduleStaffPage.xaml;Views\Schedule\ScheduleWeekPage.xaml;Views\Settings\About.xaml;Views\Settings\NotificationSettings.xaml;Views\Settings\ServiceSettings.xaml;Views\Settings\SettingsPage.xaml;Views\Settings\SignInConnect.xaml;Views\Settings\SystemSettings.xaml;Views\ShellDialogWindow.xaml;Views\ShellWindow.xaml;Views\Staff\StaffBinder.xaml;Views\Staff\StaffDetailPage.xaml;Views\Staff\StaffListAdminPage.xaml;Views\Staff\StaffListStaffPage.xaml;Views\Staff\StaffListSupervisorPage.xaml;Views\Tools\DataManagerPage.xaml;Views\Tools\FileManager.xaml;Views\Tools\FlipNotes.xaml;Views\Tools\FormFillPage.xaml;Views\Tools\FormManagerPage.xaml;Views\Tools\ReportDesignerPage.xaml;Views\Tools\ReportPagePage.xaml;Views\Tools\ReportViewerPage.xaml;Views\WebViewPage.xaml;
+
+True
+

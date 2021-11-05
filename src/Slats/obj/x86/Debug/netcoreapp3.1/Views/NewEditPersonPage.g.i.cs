@@ -55,7 +55,7 @@ namespace Slats.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/views/neweditpersonpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;component/views/neweditpersonpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\NewEditPersonPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -54,7 +54,7 @@ namespace Slats {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/questionsdictionary.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;component/questionsdictionary.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\QuestionsDictionary.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

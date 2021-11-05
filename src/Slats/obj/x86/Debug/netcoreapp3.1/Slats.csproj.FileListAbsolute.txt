@@ -502,3 +502,4 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\bin\x86\De
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\obj\x86\Debug\netcoreapp3.1\Views\Staff\StaffBinder.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\obj\x86\Debug\netcoreapp3.1\Views\Staff\StaffBinder.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\obj\x86\Debug\netcoreapp3.1\QuestionsDictionary.g.cs
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Slats\obj\x86\Debug\netcoreapp3.1\Views\Reviews\ReviewBuilder.g.cs
