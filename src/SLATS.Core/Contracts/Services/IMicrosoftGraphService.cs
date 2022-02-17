@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-using Slats.Core.Models;
+using Slats.Models;
 
 namespace Slats.Core.Contracts.Services
 {

@@ -25,5 +25,27 @@ namespace Slats.Models
         public virtual ICollection<Course> Courses { get; set; }
         public virtual ICollection<Quiz> Quizs { get; set; }
         public virtual ICollection<Result> Results { get; set; }
+ 
+        public List<string> BusinessPhones { get; set; }
+
+        public string DisplayName { get; set; }
+
+        public string GivenName { get; set; }
+
+        public object JobTitle { get; set; }
+
+        public string Mail { get; set; }
+
+        public string MobilePhone { get; set; }
+
+        public object OfficeLocation { get; set; }
+
+        public string PreferredLanguage { get; set; }
+
+        public string Surname { get; set; }
+
+        public string UserPrincipalName { get; set; }
+
+        public string Photo { get; set; }
     }
 }

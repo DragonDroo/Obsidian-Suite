@@ -1,0 +1,51 @@
+﻿<Page x:Class="Slats.Views.StaffListSupervisorPage"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:properties="clr-namespace:Slats.Properties"
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:StaffListSupervisorVM}"
+      mc:Ignorable="d"
+      d:DesignHeight="450"
+      d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Style="{StaticResource PageTitleStyle}"
+                   Margin="{StaticResource MediumLeftMargin}"
+                   Text="{x:Static properties:Resources.DataGridPageTitle}" />
+        <Grid Grid.Row="1">
+            <DataGrid AutoGenerateColumns="False"
+                      GridLinesVisibility="Horizontal"
+                      CanUserAddRows="False"
+                      ItemsSource="{Binding Source}"
+                      Margin="{StaticResource SmallLeftRightMargin}"
+                      KeyboardNavigation.TabNavigation="Once">
+                <DataGrid.Columns>
+                    <!--
+                        TODO WTS:
+                        Remove this column definitions and define columns for your data.
+                        Consider adding header properties to Resources.resw
+                    -->
+                    <DataGridTextColumn Binding="{Binding Id}"
+                                        Header="ID" />
+                    <DataGridTextColumn Binding="{Binding ProviderClass}"
+                                        Header="Provider Class" />
+                    <DataGridTextColumn Binding="{Binding License}"
+                                        Header="License" />
+                    <DataGridTextColumn Binding="{Binding ClinicalSuper}"
+                                        Header="Clinical Supervisor" />
+                    <DataGridTextColumn Binding="{Binding Credentials}"
+                                        Header="Credentials" />
+                    <DataGridTextColumn Binding="{Binding NPI}"
+                                        Header="NPI" />
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Page>

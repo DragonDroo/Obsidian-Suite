@@ -1,0 +1,27 @@
+﻿<Page x:Class="Slats.Views.SignInConnect"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Slats.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignInConnect">
+
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name ="RawText"  Background="AliceBlue"/>
+            <TextBox x:Name="HaschCodeT"  />
+            <Button Content="ClickMe for HaschCode"
+                    Click="Button_Click" />
+            <TextBox x:Name="CypherText"
+                       Background="AliceBlue" />
+            <Button Content="CypherText"
+                    Click="Button_Click_1" />
+            <TextBox x:Name="Compressedtext"
+                     Background="AliceBlue" />
+            <Button Content="Compress text"
+                    Click="Button_Click_2" />
+        </StackPanel>
+    </Grid>
+</Page>

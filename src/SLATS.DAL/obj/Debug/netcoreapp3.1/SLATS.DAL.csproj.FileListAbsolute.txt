@@ -36,7 +36,8 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\De
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.DAL.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\bin\Debug\netcoreapp3.1\Slats.Models.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csproj.AssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.DAL\obj\Debug\netcoreapp3.1\Slats.DAL.csproj.CoreCompileInputs.cache

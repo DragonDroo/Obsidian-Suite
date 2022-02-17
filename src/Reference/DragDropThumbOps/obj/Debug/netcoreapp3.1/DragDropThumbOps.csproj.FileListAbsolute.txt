@@ -48,6 +48,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\bin\Debug\netcoreapp3.1\DragDropThumbOps.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\bin\Debug\netcoreapp3.1\DragDropThumbOps.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\bin\Debug\netcoreapp3.1\DragDropThumbOps.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\MainWindow.g.cs
@@ -56,10 +57,10 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.genruntimeconfig.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropThumbOps\obj\Debug\netcoreapp3.1\DragDropThumbOps.csprojAssemblyReference.cache

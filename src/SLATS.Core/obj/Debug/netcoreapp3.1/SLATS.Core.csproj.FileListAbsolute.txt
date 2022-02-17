@@ -40,7 +40,8 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\D
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Models.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.DAL.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\bin\Debug\netcoreapp3.1\Slats.Models.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csproj.AssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Core\obj\Debug\netcoreapp3.1\Slats.Core.csproj.CoreCompileInputs.cache

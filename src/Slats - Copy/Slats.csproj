@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Slats</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x64;x86</Platforms>
+    <StartupObject>Slats.App</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="DAL\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="DAL\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="DAL\**" />
+    <Page Remove="Controllers\**" />
+    <Page Remove="DAL\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Tools\DropFiles.png" />
+    <None Remove="Views\Tools\Minion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="8.0.3" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="6.1.2" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.1" />
+    <PackageReference Include="OSVersionHelper" Version="1.1.24" />
+    <PackageReference Include="SharpZipLib" Version="1.3.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AiChat\AiChat.csproj" />
+    <ProjectReference Include="..\CalendarDaySelect\CalendarDaySelect.csproj" />
+    <ProjectReference Include="..\Charting\Charting.csproj" />
+    <ProjectReference Include="..\FilterDataGrid\FilterDataGrid.csproj" />
+    <ProjectReference Include="..\FlagControl\FlagControl.csproj" />
+    <ProjectReference Include="..\HexGrid\HexGrid.csproj" />
+    <ProjectReference Include="..\RtfEditor\RtfEditor.csproj" />
+    <ProjectReference Include="..\Slats.Core\Slats.Core.csproj" />
+    <ProjectReference Include="..\SLATS.DAL\Slats.DAL.csproj" />
+    <ProjectReference Include="..\Slats.Models\Slats.Models.csproj" />
+    <ProjectReference Include="..\TextSearchTree\TextSearchTree.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\SettingsResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SettingsResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\SettingsResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SettingsResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Structure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Tools\DropFiles.png" />
+    <Resource Include="Views\Tools\Minion.jpg" />
+  </ItemGroup>
+</Project>

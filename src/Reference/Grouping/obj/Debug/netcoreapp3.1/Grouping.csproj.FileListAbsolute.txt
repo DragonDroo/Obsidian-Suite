@@ -59,10 +59,10 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Groupi
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.genruntimeconfig.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Grouping\obj\Debug\netcoreapp3.1\Grouping.csprojAssemblyReference.cache

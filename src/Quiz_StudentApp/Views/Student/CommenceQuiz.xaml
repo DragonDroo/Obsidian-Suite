@@ -1,0 +1,102 @@
+﻿<Page x:Class="Quiz_StudentApp.Views.Student.CommenceQuiz"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Quiz_StudentApp.Views.Student"
+      xmlns:ViewModels="clr-namespace:Quiz_StudentApp.ViewModels"
+      xmlns:helperClass="clr-namespace:Quiz_StudentApp.HelperClass"
+      mc:Ignorable="d" 
+      d:DesignHeight="476" d:DesignWidth="555.87"
+      Loaded="Page_Loaded"
+      Title="CommenceQuiz">
+
+    <Page.DataContext>
+        <ViewModels:QuizViewModel />
+    </Page.DataContext>
+    <Page.Resources>
+        <helperClass:CheckBoxConverter x:Key="CheckBoxConverter"/>
+        <DataTemplate x:Key="SingleChoiceQuestionTemplate">
+            <StackPanel Width="500" Orientation="Vertical" >
+                <TextBlock MinWidth="300" Margin="0,12,0,0" FontSize="16"  Foreground="{StaticResource fontColor}" VerticalAlignment="Center" x:Name="txtblockQuestionTitle" Text="{Binding Title}" Height="25" />
+                <ListBox x:Name="SelectedAnswer" ItemsSource="{Binding Alternatives}" ItemContainerStyle="{DynamicResource ListBox_Transparent}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="txtblockAnswer" Foreground="{StaticResource fontColor}" FontSize="14" Text="{Binding Title}"/>
+                                <RadioButton x:Name="rbSingleAnswer" 
+                                             GroupName="{Binding DataContext.Title, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}" IsChecked='{Binding AnsweredValue,Mode=TwoWay, Converter={StaticResource CheckBoxConverter}}'/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="MultiChoiceQuestionTemplate">
+            <StackPanel Width="500" Orientation="Vertical">
+                <TextBlock MinWidth="300" VerticalAlignment="Center" Foreground="{StaticResource fontColor}" Margin="0,12,0,0" FontSize="16" x:Name="txtblockQuestionTitle" Text="{Binding Title}" Height="25" />
+                <ListBox ItemsSource="{Binding Alternatives}" ItemContainerStyle="{DynamicResource ListBox_Transparent}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Foreground="{StaticResource fontColor}" x:Name="txtblockAnswer" FontSize="14"  Text="{Binding Title}" />
+                                <CheckBox x:Name="checkBoxMultiChoiceAnswer" 
+                                          IsChecked="{Binding AnsweredValue,Mode=TwoWay, Converter={StaticResource CheckBoxConverter}}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="RankQuestionTemplate">
+            <StackPanel Width="500" Orientation="Vertical">
+                <TextBlock MinWidth="300" Foreground="{StaticResource fontColor}" VerticalAlignment="Center" Margin="0,12,0,0" FontSize="16" x:Name="txtblockQuestionTitle" Text="{Binding Title}" Height="25" />
+                <ListBox ItemsSource="{Binding Alternatives}" ItemContainerStyle="{DynamicResource ListBox_Transparent}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="txtblockAnswer" FontSize="14" Foreground="{StaticResource fontColor}" Text="{Binding Title}" />
+                                <TextBox x:Name="txtBoxRankedAnswer" Text="{Binding AnsweredValue, Mode=TwoWay}" Width="20" Height="20" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </DataTemplate>
+        <helperClass:QuestionTemplateSelector
+            SingleChoiceQuestionTemplate="{StaticResource SingleChoiceQuestionTemplate}"
+            MultiChoiceQuestionTemplate="{StaticResource MultiChoiceQuestionTemplate}"
+            RankQuestionTemplate="{StaticResource RankQuestionTemplate}"
+            x:Key="myDTS"/>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource backgroundGardinentOrange}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" x:Name="txtblockQuizTitle" Margin="0,21,0,0" Foreground="{StaticResource fontColor}" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="24" />
+
+        <ScrollViewer Grid.Column="0" Grid.Row="1"  VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+
+            <ListBox  ItemContainerStyle="{DynamicResource ListBox_Transparent}" 
+                      x:Name="listBoxQuestions" 
+                      ItemTemplateSelector="{StaticResource myDTS}"
+                      HorizontalContentAlignment="Stretch" BorderBrush="{x:Null}" BorderThickness="0"
+                      ItemsSource="{Binding Questions, Mode=TwoWay}"
+                      
+                      >
+                <ListBox.Background>
+                    <SolidColorBrush Color="{DynamicResource ListBox_GardinentBackground_List}"/>
+                </ListBox.Background>
+            </ListBox>
+        </ScrollViewer>
+        <TextBlock x:Name="Timer"  Foreground="{StaticResource fontColor}" Text="{Binding}" Margin="0,0,24.926,17.777"  Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="16" FontFamily="Segoe UI Light" Visibility="Hidden"/>
+        <Button Style="{StaticResource MyButtonStyle}" Grid.Row="0" Foreground="WhiteSmoke" FontFamily="Segoe MDL2 Assets"  Grid.Column="0" HorizontalAlignment="Right" Margin="0,5,24,0" FontSize="24" Content="&#59548;" Click="Btn_HandIn"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Width="100" Panel.ZIndex="5" Height="50" Source="/Quiz_StudentApp;component/Data/Images/Newton_White.png" Margin="16.363,9,0,11"/>
+    </Grid>
+</Page>

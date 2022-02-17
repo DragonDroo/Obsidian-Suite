@@ -51,6 +51,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiB
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\bin\Debug\netcoreapp3.1\MultiBinding.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\bin\Debug\netcoreapp3.1\MultiBinding.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\bin\Debug\netcoreapp3.1\MultiBinding.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\App.g.cs
@@ -61,6 +62,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiB
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\MultiBinding\obj\Debug\netcoreapp3.1\MultiBinding.csproj.CoreCompileInputs.cache

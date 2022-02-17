@@ -53,7 +53,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFi
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\bin\Debug\netcoreapp3.1\SortFilter.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\bin\Debug\netcoreapp3.1\SortFilter.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\bin\Debug\netcoreapp3.1\SortFilter.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\App.g.cs
@@ -64,6 +64,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFi
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\SortFilter\obj\Debug\netcoreapp3.1\SortFilter.csproj.CoreCompileInputs.cache

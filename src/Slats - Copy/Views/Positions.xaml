@@ -1,0 +1,90 @@
+﻿<Page x:Class="Slats.Views.Positions"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Slats.Views"
+      xmlns:properties="clr-namespace:Slats.Properties"      
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:PositionsVM}"
+      xmlns:converters="clr-namespace:Slats.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Positions">
+    <Page.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <converters:BooleanToVisibilityConverter x:Key="ReverseBooleanToVisibilityConverter" Reverse="True" />
+    </Page.Resources>
+    <Border BorderBrush="Teal"
+            BorderThickness="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <DataGrid AutoGenerateColumns="False"
+                      GridLinesVisibility="Horizontal"
+                     ItemsSource="{Binding Path=Source, Mode=TwoWay}"
+                      KeyboardNavigation.TabNavigation="Once">
+                <DataGrid.Resources>
+                    <viewmodels:BindingProxy x:Key="FirstColumnCheckedProxy"    Data="{Binding FirstColumnChecked}"   
+                                             />
+                </DataGrid.Resources>
+                <DataGrid.Columns>                  
+                    <DataGridTextColumn Binding="{Binding Path=Id}"
+                                        Header="Statuseseseseses"
+                                        Visibility="{Binding NumberVis, Converter={StaticResource BooleanToVisibilityConverter}}" />                    
+                    <DataGridTextColumn Binding="{Binding Path=EmployeeId}"
+                                        Visibility="{Binding IsLoggedIn, Converter={StaticResource ReverseBooleanToVisibilityConverter}}"
+                                        Header="Budgeted"/>
+                    <DataGridTextColumn Binding="{Binding Path=FirstName}"
+                                        Header="Dept. ID"
+                                        Visibility="{Binding Data, Converter={StaticResource BooleanToVisibilityConverter}, Source={StaticResource FirstColumnCheckedProxy}}"/>
+                    <DataGridTextColumn Binding="{Binding Path=LastName}"
+                                        Header="Job Code" />
+                    <!--Visibility="{x:Static properties:Resources.Test}"/>-->
+                    <DataGridTextColumn Binding="{Binding Path=MiddleNames}"
+                                        Header="Official Position Title" />
+                    <DataGridTextColumn Binding="{Binding Path=SupervAdminId}"
+                                        Header="Occ Series" />
+                    <DataGridTextColumn Binding="{Binding Path=SupervAdminId}"
+                                        Header="Reports To" />
+                    <DataGridTextColumn Binding="{Binding Path=SupervAlt}"
+                                        Header="PD/FS #" />
+                    <DataGridTextColumn Binding="{Binding Path=NtId}"
+                                        Header="Pay Plan" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <GridSplitter Grid.Column="1"
+                          HorizontalAlignment="Stretch"
+                          Width="5"
+                          VerticalAlignment="Stretch"
+                          Background="Teal"
+                          ShowsPreview="True"
+                          ResizeDirection="Columns"
+                          ResizeBehavior="PreviousAndNext" />
+            <Border Background="AntiqueWhite"
+                    Grid.Column="2">
+                <StackPanel>
+                    <TextBlock Text="Aggregate data here" />
+                    <CheckBox x:Name="CheckBox"
+                              Content="Number"
+                              IsChecked="{Binding Path=NumberVis, Mode=TwoWay}" />
+                    <CheckBox Content="Number"
+                              IsChecked="{Binding Path=IsLoggedIn, Mode=TwoWay}" />
+                    <!--<CheckBox Content="Number2" IsChecked="{Binding NumberVis}">
+                        
+                    </CheckBox>-->
+                    <CheckBox
+                Margin="0,0,20,0"
+                FontWeight="SemiBold"
+                IsChecked="{Binding Path=FirstColumnChecked, Mode=TwoWay}"
+                Content="View Column 1" />
+                </StackPanel>
+            </Border>
+        </Grid>
+        
+    </Border>
+</Page>

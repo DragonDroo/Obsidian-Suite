@@ -1,0 +1,156 @@
+﻿<Page x:Class="Slats.Views.CprBuilderPage"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:CprBuilderVM}"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Slats.Views"
+      xmlns:rtfeditor="clr-namespace:RtfEditor;assembly=RtfEditor"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CprBuilderPage">
+    <Page.Resources>
+        
+    </Page.Resources>
+    <Border BorderBrush="Pink"
+            BorderThickness="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <rtfeditor:RtfCompact Grid.Column="5" Width="100" Height="100"/>
+
+            <GridSplitter Grid.Column="1"
+                          HorizontalAlignment="Stretch"
+                          Width="5"
+                          VerticalAlignment="Stretch"
+                          Background="Pink"
+                          ShowsPreview="True"
+                          ResizeDirection="Columns"
+                          ResizeBehavior="PreviousAndNext" />
+            <!--<WebBrowser Grid.Column="3"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch" />-->
+            <GridSplitter Grid.Column="3"
+                          HorizontalAlignment="Stretch"
+                          Width="5"
+                          VerticalAlignment="Stretch"
+                          Background="Pink"
+                          ShowsPreview="True"
+                          ResizeDirection="Columns"
+                          ResizeBehavior="PreviousAndNext" />
+            <Border Background="AliceBlue" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition>
+                            
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    
+
+                    <DataGrid Background="Transparent"
+                              AutoGenerateColumns="False"
+                              GridLinesVisibility="Horizontal"
+                              ItemsSource="{Binding Path=Source, Mode=TwoWay}"
+                              CanUserAddRows="True"
+                              KeyboardNavigation.TabNavigation="Once"
+                              Grid.Column="0"
+                              Grid.Row="1"
+                              Grid.ColumnSpan="3">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path=CprPoolName}"
+                                                Header="Pool Name" />
+                        <DataGridCheckBoxColumn Binding="{Binding Path=AssignReview}"
+                                                    Header="Assign Review" />
+                        <DataGridTextColumn Binding="{Binding Path=ReviewForm}"
+                                                Header="Review Form" />
+
+                            <DataGridTextColumn Header="Effective" Binding="{Binding Path=Effective}" />
+                        <DataGridTextColumn Header="Retired" Width="*" Binding="{Binding Path=Retired}" />
+                        <DataGridTextColumn Binding="{Binding Path=Comment}"
+                                                Header="Note"
+                                                Width="*" />
+                    </DataGrid.Columns>
+                </DataGrid>
+                </Grid>
+            </Border>
+            
+            <Border Background="Blue" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    
+                    <ListView ItemsSource="{Binding Path=Questions}"
+                              x:Name="argh"
+                              SelectionMode="Single"
+                              HorizontalAlignment="Stretch"
+                              Grid.Row="1">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="25" />
+                                        <ColumnDefinition x:Name="testy"/>
+                                        <ColumnDefinition Width="50" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition  />
+                                        <RowDefinition Height="25" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="{Binding Path=Id}"
+                                               Height="Auto"
+                                               TextAlignment="Right"
+                                               Padding="0,0,4,0"
+                                             Grid.RowSpan="2" />
+                                    <TextBox Text="{Binding Path=Question}"                                                   x:Name="Pine"
+                                             AcceptsReturn="True"
+                                             TextWrapping="Wrap"
+                                             Grid.Row="0"
+                                             Width="800"
+                                             HorizontalAlignment="Stretch"
+                                             Grid.Column="1" />
+                                    <RichTextBox x:Name="Bananana"
+                                                 Grid.Row="2"
+                                                 Grid.Column="0"
+                                                 Grid.ColumnSpan="3"
+                                                 Background="Transparent"
+                                                 VerticalScrollBarVisibility="Auto"
+                                                 BorderBrush="Black"
+                                                 BorderThickness="0"
+                                                 SelectionChanged="RtfBox_SelectionChanged" />
+                                    <!--Width="{Binding ElementName=testy, Path=Width}"-->
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <!--<ListView.View>
+                            <GridView AllowsColumnReorder="True">
+                                <GridViewColumn DisplayMemberBinding="{Binding DisplayOrder}"
+                                                Header="Order"
+                                                Width="50" />
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Question}"
+                                                Header="Question"
+                                                Width="800" />
+                                
+                            </GridView>                            
+                        </ListView.View>-->
+                    </ListView> 
+                </Grid>
+            </Border>
+            <Border Background="OldLace" BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="4">
+                <Calendar SelectionMode="MultipleRange">
+                    
+                    
+                </Calendar>
+
+            </Border>
+        </Grid>
+    </Border>
+</Page>

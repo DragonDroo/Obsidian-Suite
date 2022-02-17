@@ -1,0 +1,103 @@
+﻿<Page x:Class="Slats.Views.LeavePollPage"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Slats.Views"
+      xmlns:calendardayselect="clr-namespace:CalendarDaySelect;assembly=CalendarDaySelect"
+      d:DataContext="{d:DesignInstance Type=viewmodels:LeavePollVM}"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LeavePollCalendarPage">
+    <Border BorderBrush="Coral"
+            BorderThickness="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="5*" />
+                <!--<RowDefinition Height="5*" />-->
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="9*" />
+                <!--<ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="9*" />-->
+            </Grid.ColumnDefinitions>
+            <Slider Grid.Row="0" Grid.Column="1" Minimum="100" Maximum="400" Value="{Binding Path=sldVal}">
+                
+            </Slider>
+            <WrapPanel x:Name="wrappingPanel" Grid.Row="1" Grid.Column="1">
+            <calendardayselect:MonthSelect x:Name="Month1"
+                                           Month="1"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+            <calendardayselect:MonthSelect x:Name="Month2"
+                                               Grid.Column="2"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+            <calendardayselect:MonthSelect x:Name="Month3"
+                                               Month="3"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month4"
+                                               Grid.Column="4"
+                                               Grid.Row="0"
+                                               Month="4"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month5"
+                                               Grid.Column="1"
+                                               Grid.Row="1"
+                                               Month="5"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month6"
+                                               Grid.Column="2"
+                                               Grid.Row="1"
+                                               Month="6"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month7"
+                                               Grid.Column="3"
+                                               Grid.Row="1"
+                                               Month="7"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month8"
+                                               Grid.Column="4"
+                                               Grid.Row="1"
+                                               Month="8"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month9"
+                                               Grid.Row="2"
+                                               Grid.Column="1"
+                                               Month="9"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month10"
+                                           Grid.Row="2"
+                                           Grid.Column="2"
+                                               Month="10"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}"/>
+                <calendardayselect:MonthSelect x:Name="Month11"
+                                           Grid.Row="2"
+                                           Grid.Column="3"
+                                               Month="11"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+                <calendardayselect:MonthSelect x:Name="Month12"
+                                           Grid.Row="2"
+                                           Grid.Column="4"
+                                               Month="12"
+                                               Height="{Binding sldVal}"
+                                               Width="{Binding sldVal2}" />
+            </WrapPanel>
+            <Button Content="Something" Click="Button_Click"/>
+        </Grid>
+    </Border>
+</Page>

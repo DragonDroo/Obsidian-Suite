@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Views\CPRs\CprPoolsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Fee Basis\FeeBasisAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Fee Basis\FeeBasisStaffPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Fee Basis\FeeBasisSupervPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NewEditPersonPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Comms\NotifyEmailTemplatesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Positions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Privileges.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Productivity\ProductivityAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Productivity\ProductivityCptPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Productivity\ProductivityDxPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Productivity\ProductivityPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Compliance\TmsAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Compliance\TmsStaffPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Compliance\VistaMenuItemsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Compliance\VistaMenuTemplatesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Reviews\ReviewBuilder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\NotificationSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\ServiceSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\SignInConnect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\SystemSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Staff\StaffBinder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="QuestionsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CPRs\CprPoolsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Fee Basis\FeeBasisAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Fee Basis\FeeBasisStaffPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Fee Basis\FeeBasisSupervPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NewEditPersonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Comms\NotifyEmailTemplatesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Positions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Privileges.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Productivity\ProductivityAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Productivity\ProductivityCptPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Productivity\ProductivityDxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Productivity\ProductivityPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Compliance\TmsAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Compliance\TmsStaffPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Compliance\VistaMenuItemsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Compliance\VistaMenuTemplatesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Reviews\ReviewBuilder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\NotificationSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\ServiceSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\SignInConnect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\SystemSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Staff\StaffBinder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

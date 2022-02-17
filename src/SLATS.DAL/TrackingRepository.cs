@@ -18,6 +18,7 @@ namespace Slats.DAL
     public class TrackingRepository<T> : ITrackingRepository<T> where T : EntityTracked
     {
         protected DbContextGeneral _context;
+
         public TrackingRepository(DbContextGeneral context)
         {
             _context = context;

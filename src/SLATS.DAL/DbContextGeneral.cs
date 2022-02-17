@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Slats.Models;
+using JetEntityFrameworkProvider;
 
 namespace Slats.DAL
 {
@@ -254,9 +255,8 @@ namespace Slats.DAL
 
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite(
-                "Data Source=reference.db");
+        { 
+            optionsBuilder.UseSqlite("Data Source=reference.db");
             optionsBuilder.UseLazyLoadingProxies();
             base.OnConfiguring(optionsBuilder);
         }

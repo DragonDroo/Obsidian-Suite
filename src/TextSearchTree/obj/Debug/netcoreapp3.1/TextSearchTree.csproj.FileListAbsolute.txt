@@ -22,7 +22,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\b
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\bin\Debug\netcoreapp3.1\TextSearchTree.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\bin\Debug\netcoreapp3.1\Slats.Models.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\bin\Debug\netcoreapp3.1\Slats.Models.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\UserControl1.g.cs
@@ -30,6 +30,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\o
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree_MarkupCompile.lref
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\UserControl1.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.g.resources
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\TextSearchTree\obj\Debug\netcoreapp3.1\TextSearchTree.csproj.CoreCompileInputs.cache

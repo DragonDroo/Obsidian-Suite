@@ -62,6 +62,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Update
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\UpdateSource\obj\Debug\netcoreapp3.1\UpdateSource.csproj.CoreCompileInputs.cache

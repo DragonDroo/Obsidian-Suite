@@ -50,7 +50,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\bin\Debug\netcoreapp3.1\DragDropOpenTextFile.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\bin\Debug\netcoreapp3.1\DragDropOpenTextFile.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\bin\Debug\netcoreapp3.1\DragDropOpenTextFile.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\App.g.cs
@@ -60,6 +60,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDr
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\DragDropOpenTextFile\obj\Debug\netcoreapp3.1\DragDropOpenTextFile.csproj.CoreCompileInputs.cache

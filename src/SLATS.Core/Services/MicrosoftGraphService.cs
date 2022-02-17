@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Slats.Core.Contracts.Services;
 using Slats.Core.Helpers;
-using Slats.Core.Models;
+using Slats.Models;
 
 namespace Slats.Core.Services
 {

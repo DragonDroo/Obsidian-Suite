@@ -1,0 +1,65 @@
+﻿<Page x:Class="Slats.Views.ProductivityPage"
+      Style="{DynamicResource MahApps.Styles.Page}"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Slats.Views"
+      xmlns:viewmodels="clr-namespace:Slats.ViewModels"
+      d:DataContext="{d:DesignInstance Type=viewmodels:ProductivityVM}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProductivityPage">
+
+    <Border BorderBrush="Teal"
+            BorderThickness="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300" />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Background="Aqua"
+                        Grid.Column="0" />
+                <GridSplitter Grid.Column="1"
+                              Grid.Row="0"
+                              HorizontalAlignment="Stretch"
+                              Width="5"
+                              VerticalAlignment="Stretch"
+                          Background="Teal"
+                              ShowsPreview="True"
+                              ResizeDirection="Columns"
+                              ResizeBehavior="PreviousAndNext" />
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*" />
+                        <RowDefinition Height="5" />
+                        <RowDefinition Height="6*" />
+                    </Grid.RowDefinitions>
+                    <Border Background="Azure"
+                            Grid.Row="0"
+                            MinHeight="24">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="Aggregation Here Per Provider Only" />
+                    </Border>
+                    <GridSplitter Grid.Row="1"
+                                  HorizontalAlignment="Stretch"
+                                  VerticalAlignment="Stretch"
+                              Background="Teal"
+                                  ShowsPreview="True"
+                                  ResizeDirection="Rows"
+                                  ResizeBehavior="PreviousAndNext" />
+                    <Border Background="Cornsilk"
+                            Grid.Row="2"
+                            MinHeight="24">
+
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="Detail List of Meetings" />
+                    </Border>
+                </Grid>
+                <TextBlock Grid.Column="0"
+                           TextWrapping="Wrap"
+                           Text="Page Definition for staff View of Productivity Data. Populate Staff List here, Hide for Staff View." />
+            </Grid>
+    </Border>
+</Page>

@@ -6,6 +6,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\o
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar_MarkupCompile.lref
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\UserControl1.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar.g.resources
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\AnnualCalendar\obj\Debug\netcoreapp3.1\AnnualCalendar.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+﻿Quiz Model Reference
+https://github.com/bjorkvalle/QuizGroupProject_WPF
+
+Reference for Logon, Encryption, and Db Creation Sequence
+https://github.com/ArpadGBondor/Red-Inventory-Management

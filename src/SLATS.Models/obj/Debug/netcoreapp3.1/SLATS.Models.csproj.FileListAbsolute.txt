@@ -29,7 +29,7 @@ C:\Users\VHASBYMeachD\source\repos\Slats_E\SLATS.Models\obj\Debug\netcoreapp3.1\
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\bin\Debug\netcoreapp3.1\Slats.Models.deps.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\bin\Debug\netcoreapp3.1\Slats.Models.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\bin\Debug\netcoreapp3.1\Slats.Models.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\obj\Debug\netcoreapp3.1\Slats.Models.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\obj\Debug\netcoreapp3.1\Slats.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\obj\Debug\netcoreapp3.1\Slats.Models.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\obj\Debug\netcoreapp3.1\Slats.Models.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\SLATS.Models\obj\Debug\netcoreapp3.1\Slats.Models.csproj.CoreCompileInputs.cache

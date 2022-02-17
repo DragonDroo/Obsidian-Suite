@@ -10,8 +10,10 @@
 //------------------------------------------------------------------------------
 
 using CalendarDaySelect;
+using Slats.Helpers;
 using Slats.ViewModels;
 using Slats.Views;
+using Slats.Views.Reviews;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -154,13 +156,13 @@ namespace Slats.Views {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.5.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Slats;component/views/schedule/leavepollpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Slats;V1.0.0.0;component/views/schedule/leavepollpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Schedule\LeavePollPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -170,7 +172,7 @@ namespace Slats.Views {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.5.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]

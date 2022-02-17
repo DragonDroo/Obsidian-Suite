@@ -52,6 +52,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Hierar
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\bin\Debug\netcoreapp3.1\HierarchicalDataTemplate.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\bin\Debug\netcoreapp3.1\HierarchicalDataTemplate.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\bin\Debug\netcoreapp3.1\HierarchicalDataTemplate.pdb
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\App.g.cs
@@ -62,10 +63,10 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Hierar
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.csproj.CoreCompileInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.genruntimeconfig.cache
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\HierarchicalDataTemplate\obj\Debug\netcoreapp3.1\HierarchicalDataTemplate.csprojAssemblyReference.cache

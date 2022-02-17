@@ -53,7 +53,6 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Priori
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\bin\Debug\netcoreapp3.1\PriorityBinding.runtimeconfig.dev.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\bin\Debug\netcoreapp3.1\PriorityBinding.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\bin\Debug\netcoreapp3.1\PriorityBinding.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.csprojAssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.dll.config
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\App.g.cs
@@ -64,6 +63,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Priori
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PriorityBinding\obj\Debug\netcoreapp3.1\PriorityBinding.csproj.CoreCompileInputs.cache

@@ -61,6 +61,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\Proper
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.g.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.Properties.Resources.resources
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.csproj.GenerateResource.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Reference\PropertyChangeNotification\obj\Debug\netcoreapp3.1\PropertyChangeNotification.csproj.CoreCompileInputs.cache

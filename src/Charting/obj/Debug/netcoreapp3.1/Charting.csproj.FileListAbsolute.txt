@@ -32,7 +32,6 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Controls\Chartin
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\bin\Debug\netcoreapp3.1\Charting.deps.json
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\bin\Debug\netcoreapp3.1\Charting.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\bin\Debug\netcoreapp3.1\Charting.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.csprojAssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\ChartSpace.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Nodes\OrgNodeT.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting_MarkupCompile.cache
@@ -40,6 +39,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Deb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\ChartSpace.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Nodes\OrgNodeT.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.g.resources
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Charting\obj\Debug\netcoreapp3.1\Charting.csproj.CoreCompileInputs.cache

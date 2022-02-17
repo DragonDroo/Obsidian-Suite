@@ -29,7 +29,6 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\Controls\FilterD
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\bin\Debug\FilterDataGrid.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\bin\Debug\ref\FilterDataGrid.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\bin\Debug\FilterDataGrid.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\obj\Debug\FilterDataGrid.csprojAssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\obj\Debug\FilterDataGrid.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\FilterDataGrid\obj\Debug\FilterDataGrid_MarkupCompile.cache

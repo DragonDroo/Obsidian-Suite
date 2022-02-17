@@ -3,7 +3,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSel
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\bin\Debug\netcoreapp3.1\MonthCalendarSelect.pdb
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\bin\Debug\netcoreapp3.1\CalendarDaySelect.dll
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\bin\Debug\netcoreapp3.1\CalendarDaySelect.pdb
-C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.csprojAssemblyReference.cache
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.csproj.AssemblyReference.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\DayButtonCompact.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthView.g.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect_MarkupCompile.cache
@@ -11,6 +11,7 @@ C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSel
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\DayButtonCompact.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthView.baml
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.g.resources
+C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.AssemblyInfoInputs.cache
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.AssemblyInfo.cs
 C:\Users\VHASBYMeachD\source\repos\Service-Line-Admin-Tools\src\MonthCalendarSelect\obj\Debug\netcoreapp3.1\MonthCalendarSelect.csproj.CoreCompileInputs.cache
